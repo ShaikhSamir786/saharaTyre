@@ -1,0 +1,8 @@
+# robots.txt – Sahara Tyre (saharatyre.com)
+User-agent: *
+Allow: /
+
+# Block access to any admin or private paths (add as needed)
+# Disallow: /admin/
+
+Sitemap: https://www.saharatyre.com/sitemap.xml

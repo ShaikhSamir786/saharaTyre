@@ -3,45 +3,38 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    
-    <!-- Primary Domain / Homepage -->
+
+    <!-- Homepage / Landing Page (Single-Page Site) -->
     <url>
-        <!-- Replace 'YOUR_DOMAIN_HERE.com' with your actual domain name e.g., 'saharatyres.com' -->
-        <loc>https://www.YOUR_DOMAIN_HERE.com/</loc>
+        <loc>https://www.saharatyre.com/</loc>
         <lastmod>2026-03-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
-    <!-- 
-      Note for SEO:
-      Currently, the site is structured as a Single-Page Application (SPA) / Landing Page.
-      Search engines primarily rank individual unique URLs. 
-      If you plan to create separate pages for each section to target more specific SEO keywords, 
-      uncomment and use the following structural template, making sure to create the corresponding HTML files!
-    -->
-
     <!--
-    <url>
-        <loc>https://www.YOUR_DOMAIN_HERE.com/services.html</loc>
-        <lastmod>2026-03-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+      Tip: If you expand to separate pages in future, add them here:
 
-    <url>
-        <loc>https://www.YOUR_DOMAIN_HERE.com/products.html</loc>
-        <lastmod>2026-03-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+      <url>
+          <loc>https://www.saharatyre.com/services.html</loc>
+          <lastmod>2026-03-07</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+      </url>
 
-    <url>
-        <loc>https://www.YOUR_DOMAIN_HERE.com/location.html</loc>
-        <lastmod>2026-03-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+      <url>
+          <loc>https://www.saharatyre.com/products.html</loc>
+          <lastmod>2026-03-07</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+      </url>
+
+      <url>
+          <loc>https://www.saharatyre.com/location.html</loc>
+          <lastmod>2026-03-07</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.7</priority>
+      </url>
     -->
-    
+
 </urlset>

@@ -6,7 +6,7 @@
 
     <!-- Homepage / Landing Page (Single-Page Site) -->
     <url>
-        <loc>https://www.saharatyre.com/</loc>
+        <loc>https://sahara-tyre.vercel.app/</loc>
         <lastmod>2026-03-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>

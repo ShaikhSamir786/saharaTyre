@@ -45,8 +45,8 @@
     <!-- google search console -->
     <meta name="google-site-verification" content="H6Pq0eI_0M2sSwSWyHpuCbS7ufcyBMaw_r2k7VCv9Ok" />
 
-    <!-- Tailwind (defer to not block render) -->
-    <script defer src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -69,7 +69,9 @@
     <style>
         body {
             font-family: 'Spline Sans', sans-serif;
-            min-height: max(884px, 100dvh);
+            min-height: 100vh;
+            /* Fallback for older browsers */
+            min-height: 100dvh;
         }
 
         .industrial-grid {

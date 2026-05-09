@@ -7,7 +7,7 @@
     <!-- Homepage / Landing Page (Single-Page Site) -->
     <url>
         <loc>https://sahara-tyre.vercel.app/</loc>
-        <lastmod>2026-03-07</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -16,21 +16,21 @@
       Tip: If you expand to separate pages in future, add them here:
 
       <url>
-          <loc>https://www.saharatyre.com/services.html</loc>
+          <loc>https://sahara-tyre.vercel.app/services.html</loc>
           <lastmod>2026-03-07</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
       </url>
 
       <url>
-          <loc>https://www.saharatyre.com/products.html</loc>
+          <loc>https://sahara-tyre.vercel.app/products.html</loc>
           <lastmod>2026-03-07</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
       </url>
 
       <url>
-          <loc>https://www.saharatyre.com/location.html</loc>
+          <loc>https://sahara-tyre.vercel.app/location.html</loc>
           <lastmod>2026-03-07</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.7</priority>

@@ -1,10 +1,14 @@
-# robots.txt – Sahara Tyre (saharatyre.com)
+# robots.txt – Sahara Tyre (sahara-tyre.vercel.app)
 User-agent: *
 Allow: /
 
 # AI crawler access
 Allow: /llms.txt
+Allow: /ai.txt
 Allow: /.well-known/ai-plugin.json
+
+# AI crawler rate-limiting hints (respect at your discretion)
+# Crawl-delay: 2
 
 # Block access to any admin or private paths (add as needed)
 # Disallow: /admin/

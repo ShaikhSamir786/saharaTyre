@@ -1,0 +1,28 @@
+{
+  "name": "Sahara Tyre Sales & Services",
+  "short_name": "Sahara Tyre",
+  "description": "Best Tyre Shop & Wheel Alignment in Vapi GIDC, Gujarat. New, used & remolded tyres, puncture repair, truck tyre services since 2005.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["automotive", "shopping", "services"],
+  "prefer_related_applications": false
+}

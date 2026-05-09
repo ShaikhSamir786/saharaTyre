@@ -1,0 +1,19 @@
+# humans.txt – Sahara Tyre Sales & Services
+# https://sahara-tyre.vercel.app/
+# Learn more: https://humanstxt.org/
+
+/* TEAM */
+Owner / Founder: Mujaffar Shaikh
+Role: Proprietor
+Contact: +91-9377158216
+Email: shaikh.samir.dev@gmail.com
+
+/* SITE */
+Website: Sahara Tyre Sales & Services
+Location: Vapi GIDC, Gujarat, India
+Since: 2005
+Language: English, Hindi, Gujarati
+Platform: Vercel + Tailwind CSS
+
+/* THANKS */
+Thanks to our customers in Vapi GIDC, Gunjan, Chala, Daman, and Silvassa for 18+ years of trust.

@@ -1,0 +1,9 @@
+# security.txt – Sahara Tyre
+# https://sahara-tyre.vercel.app/.well-known/security.txt
+
+Contact: mailto:shaikh.samir.dev@gmail.com
+Contact: tel:+91-9377158216
+Expires: 2027-05-09T00:00:00.000Z
+Preferred-Languages: en, hi, gu
+Canonical: https://sahara-tyre.vercel.app/.well-known/security.txt
+Policy: https://sahara-tyre.vercel.app/

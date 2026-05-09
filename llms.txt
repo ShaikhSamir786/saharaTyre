@@ -1,0 +1,98 @@
+# Sahara Tyre – LLMs.txt
+
+> Sahara Tyre Sales & Services is Vapi's most trusted tyre specialist since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, truck tyre fitting, and roadside assistance.
+
+## About
+
+Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service tyre shop offering sales, fitting, repair, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
+
+**Website:** https://sahara-tyre.vercel.app/
+**Phone:** +91-9377158216
+**WhatsApp:** https://wa.me/919377158216
+**Email:** saharatyre@gmail.com
+**Location:** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
+**Coordinates:** 20.362324°N, 72.919686°E
+**Hours:** Monday–Sunday, 9:00 AM – 8:00 PM
+
+## Services
+
+| Service | Description |
+|---|---|
+| **New Tyre Sales** | All major brands (MRF, CEAT, Apollo, Bridgestone, etc.) for cars, SUVs, vans, and trucks |
+| **Used Tyres** | Quality-checked pre-owned tyres at competitive prices |
+| **Remolded Tyres** | Eco-friendly remolded tyres inspected for safety |
+| **Puncture Repair** | Quick nail puncture and tubeless tyre repair (typically 15–20 min) |
+| **Wheel Alignment** | Precision laser wheel alignment for all vehicle types |
+| **Tyre Balancing** | Computerised tyre balancing to eliminate vibrations |
+| **Truck Tyre Fitting** | Heavy-duty commercial tyre fitting for GIDC fleet vehicles |
+| **Tyre Exchange** | Get fair value for your old tyres toward new purchases |
+| **Roadside Assistance** | Emergency tyre repair and support near Vapi GIDC |
+| **Tread Inspection** | Free tyre safety and tread-depth checks |
+
+## Service Areas
+
+- **Vapi GIDC** (primary location)
+- **Gunjan**
+- **Imran Nagar**
+- **Chala**
+- **Daman Road**
+- **Daman**
+- **Silvassa**
+- **Surrounding Gujarat regions**
+
+## Brands Available
+
+- MRF
+- CEAT
+- Apollo
+- Bridgestone
+- Goodyear
+- Continental
+- Michelin
+- Pirelli
+- Yokohama
+- Hankook
+- And other major tyre brands
+
+## Pricing
+
+Prices are competitive and vary by tyre brand, size, and vehicle type. We offer:
+- Transparent pricing with no hidden workshop charges
+- Special rates for fleet/commercial customers
+- Tyre exchange discounts
+- Free basic inspections
+
+## FAQs
+
+**Q: How much does wheel alignment cost?**
+A: Prices start at competitive local rates and vary between passenger cars and heavy trucks. Contact us at +91-9377158216 for a precise quote.
+
+**Q: Do you stock heavy truck tyres?**
+A: Yes, we specialise in heavy-duty commercial tyres for GIDC logistics and industrial needs.
+
+**Q: How long does puncture repair take?**
+A: A standard nail puncture takes 15–20 minutes. Complex sidewall repairs may take longer.
+
+**Q: Are you open on Sundays?**
+A: Yes, we are open Monday through Sunday, 9 AM – 8 PM.
+
+**Q: Do you offer roadside assistance?**
+A: Yes, we provide emergency tyre support near Vapi GIDC. Call +91-9377158216.
+
+## Reviews (Google Rating: 4.8/5 from 120+ reviews)
+
+- *"Excellent service! Got my truck tyres replaced quickly. Best tyre shop in Vapi GIDC."* – Ravi Patel, Truck Fleet Owner
+- *"Best puncture repair in Vapi. Fixed my tubeless tyre in 15 minutes."* – Suresh Mehta, Car Owner
+- *"Trusted shop for 5 years. Honest, no overcharging. Wheel alignment was perfect."* – Fatima Khan, Regular Customer
+
+## Structured Data (Schema.org)
+
+- **LocalBusiness / AutoPartsStore**: https://sahara-tyre.vercel.app/
+- **AggregateRating**: 4.8/5 (120+ reviews)
+- **OpeningHoursSpecification**: Mo–Su 09:00–20:00
+- **PostalAddress**: Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, IN
+- **GeoCoordinates**: 20.362324, 72.919686
+
+## Sitemap
+
+- https://sahara-tyre.vercel.app/sitemap.xml

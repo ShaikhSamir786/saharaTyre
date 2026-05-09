@@ -2,6 +2,10 @@
 User-agent: *
 Allow: /
 
+# AI crawler access
+Allow: /llms.txt
+Allow: /.well-known/ai-plugin.json
+
 # Block access to any admin or private paths (add as needed)
 # Disallow: /admin/
 

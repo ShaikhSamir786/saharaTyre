@@ -15,5 +15,8 @@ Since: 2005
 Language: English, Hindi, Gujarati
 Platform: Vercel + Tailwind CSS
 
+/* SERVICES */
+New tyres, used tyres, remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, vehicle inspection, roadside assistance
+
 /* THANKS */
 Thanks to our customers in Vapi GIDC, Gunjan, Chala, Daman, and Silvassa for 18+ years of trust.

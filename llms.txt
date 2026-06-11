@@ -1,10 +1,10 @@
 # Sahara Tyre – LLMs.txt
 
-> Sahara Tyre Sales & Services is Vapi's most trusted tyre specialist since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, truck tyre fitting, and roadside assistance.
+> Sahara Tyre Sales & Services is Vapi's most trusted tyre specialist and automotive workshop since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, and roadside assistance.
 
 ## About
 
-Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service tyre shop offering sales, fitting, repair, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
+Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service automotive workshop and tyre shop offering sales, fitting, repair, inspection, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
 
 **Website:** https://sahara-tyre.vercel.app/
 **Phone:** +91-9377158216
@@ -24,8 +24,12 @@ Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas fo
 | **Puncture Repair** | Quick nail puncture and tubeless tyre repair (typically 15–20 min) |
 | **Wheel Alignment** | Precision laser wheel alignment for all vehicle types |
 | **Tyre Balancing** | Computerised tyre balancing to eliminate vibrations |
+| **Brake Inspection** | Pad and rotor inspection for disc and drum brakes |
+| **Suspension Check** | Strut, shock absorber, and steering component inspection |
 | **Truck Tyre Fitting** | Heavy-duty commercial tyre fitting for GIDC fleet vehicles |
 | **Tyre Exchange** | Get fair value for your old tyres toward new purchases |
+| **Fleet Maintenance** | Scheduled tyre rotation, alignment, and inspection for GIDC fleets |
+| **Vehicle Inspection** | Complete wheel, steering, and suspension health check |
 | **Roadside Assistance** | Emergency tyre repair and support near Vapi GIDC |
 | **Tread Inspection** | Free tyre safety and tread-depth checks |
 
@@ -72,6 +76,12 @@ A: Yes, we specialise in heavy-duty commercial tyres for GIDC logistics and indu
 
 **Q: How long does puncture repair take?**
 A: A standard nail puncture takes 15–20 minutes. Complex sidewall repairs may take longer.
+
+**Q: Do you offer brake inspection and suspension check?**
+A: Yes, we recommend brake pad inspection and suspension check alongside every wheel alignment service for complete vehicle safety.
+
+**Q: Can you service fleet vehicles?**
+A: Yes, we offer scheduled fleet maintenance including tyre rotation, alignment, brake inspection, and priority roadside assistance for GIDC factories and logistics companies.
 
 **Q: Are you open on Sundays?**
 A: Yes, we are open Monday through Sunday, 9 AM – 8 PM.

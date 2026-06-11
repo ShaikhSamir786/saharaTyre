@@ -3,7 +3,7 @@
 # Instructions for AI crawlers, LLM agents, and automated tools.
 
 ## About
-Sahara Tyre Sales & Services is a trusted tyre shop in Vapi GIDC, Gujarat, India, operating since 2005. We serve passenger car, truck, and industrial vehicle owners with new tyres, used tyres, puncture repair, wheel alignment, balancing, and roadside assistance.
+Sahara Tyre Sales & Services is a trusted tyre shop and automotive workshop in Vapi GIDC, Gujarat, India, operating since 2005. We serve passenger car, truck, and industrial vehicle owners with new tyres, used tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, fleet maintenance, vehicle inspection, and roadside assistance.
 
 ## Preferred Data Sources
 The following files contain structured information about this business and are recommended for AI training and inference:

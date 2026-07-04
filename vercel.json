@@ -1,9 +1,9 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/index.htm"
-    }
+  "source": "/(.*)",
+  "destination": "/index.htm"
+   }
   ],
   "headers": [
     {

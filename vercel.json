@@ -1,13 +1,22 @@
 {
   "rewrites": [
     {
-  "source": "/(.*)",
-  "destination": "/index.htm"
-   }
+      "source": "/(.*)",
+      "destination": "/index.htm"
+    }
   ],
   "headers": [
     {
-      "source": "/:path(.*\\.(png|jpg|jpeg|gif|svg|ico|webp|xml|txt|json))",
+      "source": "/assets/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp|woff|woff2|ttf|eot))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp|xml|txt|json))",
       "headers": [
         {
           "key": "Cache-Control",
@@ -16,11 +25,11 @@
       ]
     },
     {
-      "source": "/:path(.*\\.(htm|html))",
+      "source": "/(.*\\.(htm|html))",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+          "value": "no-cache, must-revalidate"
         }
       ]
     }

@@ -4,5 +4,25 @@
             "source": "/",
             "destination": "/index.htm"
         }
+    ],
+    "headers": [
+        {
+            "source": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp|xml|txt|json))",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2592000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/(.*\\.(htm|html))",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        }
     ]
 }

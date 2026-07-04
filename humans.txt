@@ -1,4 +1,4 @@
-# humans.txt – Sahara Tyre Sales & Services
+# humans.txt – Sahara Tyre GIDC Vapi
 # https://sahara-tyre.vercel.app/
 # Learn more: https://humanstxt.org/
 
@@ -9,7 +9,7 @@ Contact: +91-9377158216
 Email: shaikh.samir.dev@gmail.com
 
 /* SITE */
-Website: Sahara Tyre Sales & Services
+Website: Sahara Tyre GIDC Vapi
 Location: Vapi GIDC, Gujarat, India
 Since: 2005
 Language: English, Hindi, Gujarati

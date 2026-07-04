@@ -1,10 +1,10 @@
 # Sahara Tyre – LLMs.txt
 
-> Sahara Tyre Sales & Services is Vapi's most trusted tyre specialist and automotive workshop since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, and roadside assistance.
+> Sahara Tyre GIDC Vapi is Vapi's most trusted tyre specialist and automotive workshop since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, and roadside assistance.
 
 ## About
 
-Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service automotive workshop and tyre shop offering sales, fitting, repair, inspection, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
+Sahara Tyre GIDC Vapi has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service automotive workshop and tyre shop offering sales, fitting, repair, inspection, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
 
 **Website:** https://sahara-tyre.vercel.app/
 **Phone:** +91-9377158216
@@ -12,7 +12,7 @@ Sahara Tyre Sales & Services has been serving Vapi GIDC and surrounding areas fo
 **Email:** shaikh.samir.dev@gmail.com
 **Location:** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
 **Coordinates:** 20.362324°N, 72.919686°E
-**Hours:** Monday–Sunday, 9:00 AM – 8:00 PM
+**Hours:** Monday–Saturday, 7:30 AM – 9:00 PM | Sunday, 7:30 AM – 6:00 PM
 
 ## Services
 
@@ -99,7 +99,7 @@ A: Yes, we provide emergency tyre support near Vapi GIDC. Call +91-9377158216.
 
 - **LocalBusiness / AutoPartsStore**: https://sahara-tyre.vercel.app/
 - **AggregateRating**: 4.8/5 (120+ reviews)
-- **OpeningHoursSpecification**: Mo–Su 09:00–20:00
+- **OpeningHoursSpecification**: Mo–Sa 07:30–21:00, Su 07:30–18:00
 - **PostalAddress**: Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, IN
 - **GeoCoordinates**: 20.362324, 72.919686
 

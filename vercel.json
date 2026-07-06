@@ -1,13 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/",
       "destination": "/index.htm"
     }
   ],
   "headers": [
     {
-      "source": "/(.*\\.(htm|html))",
+      "source": "/index.htm",
       "headers": [
         {
           "key": "Cache-Control",

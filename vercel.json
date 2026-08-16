@@ -3,9 +3,34 @@
     {
       "source": "/",
       "destination": "/index.htm"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.htm"
+    },
+    {
+      "source": "/products",
+      "destination": "/products.htm"
+    },
+    {
+      "source": "/location",
+      "destination": "/location.htm"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.htm"
     }
   ],
   "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
     {
       "source": "/index.htm",
       "headers": [

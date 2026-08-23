@@ -10,7 +10,9 @@ This project uses specialized agent skills located in `agents/skills/`. Each ski
 |-------|---------|-------------|
 | `performance-engineer.md` | System-wide performance analysis and optimization | "Why is this slow" questions, load testing, capacity planning |
 | `seo-engineer.md` | Technical SEO, structured data, AEO/GEO optimization | SEO audits, schema markup, sitemap configuration, AI answer engine optimization |
+| `seo-keyword-research-implementation.skill.md` | On-page keyword research, intent mapping & content optimization | Keyword targeting, topic clustering, title/meta/heading optimization |
 | `ui-ux-engineer.md` | Visual and interaction design direction | "How should this look/flow" questions, design system decisions |
+| `frontend-engineer.md` | Client-side HTML/CSS/JS implementation & DOM performance | UI building, component structure, responsive layout, font loading |
 
 ## How to Use Skills
 
@@ -19,7 +21,9 @@ When your task matches a skill's domain, read and follow the instructions in tha
 ```
 Read agents/skills/performance-engineer.md
 Read agents/skills/seo-engineer.md
+Read agents/skills/seo-keyword-research-implementation.skill.md
 Read agents/skills/ui-ux-engineer.md
+Read agents/skills/frontend-engineer.md
 ```
 
 ## Skill Activation Rules
@@ -36,6 +40,18 @@ Read agents/skills/ui-ux-engineer.md
 - Sitemap/robots.txt configuration
 - Core Web Vitals ranking factor optimization
 - AEO/GEO content structure optimization
+
+**seo-keyword-research-implementation** activates for:
+- Keyword research and search intent mapping
+- Meta title, description, and heading hierarchy tuning
+- High-intent FAQ and content gap filling
+- Preventing keyword cannibalization
+
+**frontend-engineer** activates for:
+- HTML/CSS layout stability and semantic markup
+- Font loading and layout shift (CLS) fixes
+- Interactive element behavior (WhatsApp forms, modals)
+- Asset delivery and bundle performance
 
 **ui-ux-engineer** activates for:
 - Design direction requests ("how should this look")

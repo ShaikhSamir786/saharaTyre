@@ -17,6 +17,10 @@
       "destination": "/location.htm"
     },
     {
+      "source": "/contact",
+      "destination": "/location.htm"
+    },
+    {
       "source": "/about",
       "destination": "/about.htm"
     }

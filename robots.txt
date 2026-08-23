@@ -1,16 +1,50 @@
-# robots.txt – Sahara Tyre (sahara-tyre.vercel.app)
+# robots.txt – Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
 User-agent: *
 Allow: /
 
-# AI crawler access
+# Explicit AI Search & Answer Engine Crawler Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Dedicated AI Context Endpoints
 Allow: /llms.txt
+Allow: /llms-full.txt
 Allow: /ai.txt
 Allow: /.well-known/ai-plugin.json
 
-# AI crawler rate-limiting hints (respect at your discretion)
-# Crawl-delay: 2
-
-# Block access to any admin or private paths (add as needed)
-# Disallow: /admin/
-
+# Sitemaps & Feeds
 Sitemap: https://sahara-tyre.vercel.app/sitemap.xml
+

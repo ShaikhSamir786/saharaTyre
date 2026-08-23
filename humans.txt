@@ -3,20 +3,28 @@
 # Learn more: https://humanstxt.org/
 
 /* TEAM */
-Owner / Founder: Mujaffar Shaikh
-Role: Proprietor
+Proprietor / Founder: Mujaffar Shaikh
+Lead Alignment Technician: Shaikh Khurshid
+Commercial Fleet Specialist: Mohammad Riyaz
+Auto Diagnostics Specialist: Ashraf Pathan
+Location: Vapi GIDC, Gujarat, India
 Contact: +91-9377158216
 Email: shaikh.samir.dev@gmail.com
 
 /* SITE */
-Website: Sahara Tyre GIDC Vapi
-Location: Vapi GIDC, Gujarat, India
-Since: 2005
-Language: English, Hindi, Gujarati
-Platform: Vercel + Tailwind CSS
+Website: Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
+Established: 2005 (18+ Years Experience)
+Languages: English, Hindi, Gujarati
+Standards: HTML5, CSS3, Schema.org JSON-LD, RFC 9116, LLMs.txt
+Hosting: Vercel (Edge Network)
+Components: Tailwind CSS, Material Symbols, Google Analytics 4
 
-/* SERVICES */
-New tyres, used tyres, remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, vehicle inspection, roadside assistance
+/* AUTOMOTIVE SERVICES */
+3D Laser Wheel Alignment, Electronic Wheel Balancing, Tubeless & Tube Puncture Repair, Brake System Inspection, Suspension & Steering Check, Truck Tyre Fitting (10.00-20, 295/80 R22.5), GIDC Industrial Fleet Maintenance, Nitrogen Inflation, Roadside Breakdown Assistance.
+
+/* PRODUCTS */
+New Radial Tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, Goodyear), Quality-Checked Used Tyres (5-Point Safety Tested), Certified Remolded & Retreaded Tyres, Alloy Wheels & Automotive Accessories.
 
 /* THANKS */
-Thanks to our customers in Vapi GIDC, Gunjan, Chala, Daman, and Silvassa for 18+ years of trust.
+Thanks to over 10,000+ vehicle owners, fleet operators, and industrial logistics companies across Vapi GIDC, Gunjan, Chala, Chanod, Daman, and Silvassa for 18+ years of loyalty and trust.
+

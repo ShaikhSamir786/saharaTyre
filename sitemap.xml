@@ -2,46 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                            http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
-    <!-- Homepage -->
+    <!-- Homepage: Master Hub -->
     <url>
         <loc>https://sahara-tyre.vercel.app/</loc>
-        <lastmod>2026-08-16</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2026-08-23</lastmod>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>Sahara Tyre GIDC Vapi – Tyre Shop &amp; Auto Workshop</image:title>
+            <image:caption>Sahara Tyre workshop, 3D laser wheel alignment and tyre fitting station in Vapi GIDC Phase 1</image:caption>
+        </image:image>
     </url>
 
-    <!-- Services Page -->
+    <!-- Services Hub -->
     <url>
         <loc>https://sahara-tyre.vercel.app/services.htm</loc>
-        <lastmod>2026-08-16</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2026-08-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>Tyre &amp; Auto Services at Sahara Tyre Vapi</image:title>
+            <image:caption>3D laser wheel alignment, dynamic wheel balancing, puncture repair and fleet maintenance in Vapi GIDC</image:caption>
+        </image:image>
     </url>
 
-    <!-- Products Page -->
+    <!-- Products Catalog -->
     <url>
         <loc>https://sahara-tyre.vercel.app/products.htm</loc>
-        <lastmod>2026-08-16</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2026-08-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>New, Used &amp; Remolded Tyres in Vapi</image:title>
+            <image:caption>MRF, CEAT, Apollo, Bridgestone car radials and commercial truck tyres in Vapi GIDC</image:caption>
+        </image:image>
     </url>
 
-    <!-- Location Page -->
+    <!-- Location & Directions -->
     <url>
         <loc>https://sahara-tyre.vercel.app/location.htm</loc>
-        <lastmod>2026-08-16</lastmod>
+        <lastmod>2026-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>Sahara Tyre Location at Char Rasta Vapi GIDC</image:title>
+            <image:caption>Directions and landmark navigation to Sahara Tyre near CNG Pump Phase 1 GIDC Vapi</image:caption>
+        </image:image>
     </url>
 
-    <!-- About Page -->
+    <!-- About & Trust -->
     <url>
         <loc>https://sahara-tyre.vercel.app/about.htm</loc>
-        <lastmod>2026-08-16</lastmod>
+        <lastmod>2026-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>About Sahara Tyre Vapi – 18+ Years Experience</image:title>
+            <image:caption>Experienced tyre specialists and automotive technicians at Sahara Tyre Vapi</image:caption>
+        </image:image>
     </url>
 
 </urlset>
+

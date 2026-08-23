@@ -1,126 +1,94 @@
 # Sahara Tyre – LLMs.txt
+> Sahara Tyre GIDC Vapi is Vapi's premier automotive tyre specialist and service center (operating since 2005) located in Phase 1 GIDC, Vapi, Gujarat, India. Specialising in new, quality-checked used, and remolded tyres, computerised 3D laser wheel alignment, dynamic wheel balancing, tubeless puncture repair, brake & suspension diagnostics, heavy commercial truck fleet maintenance, and emergency roadside breakdown assistance.
+>
+> **Full Knowledge Base:** [llms-full.txt](https://sahara-tyre.vercel.app/llms-full.txt) (contains complete sizing matrices, all technical procedural specs, and comprehensive Q&A repository).
 
-> Sahara Tyre GIDC Vapi is Vapi's most trusted tyre specialist and automotive workshop since 2005, located in Vapi GIDC, Gujarat, India. We offer new, used & remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, and roadside assistance.
+## Business Profile & NAP Entity Data
+- **Entity Name:** Sahara Tyre GIDC Vapi (Sahara Tyre)
+- **Primary Domain:** https://sahara-tyre.vercel.app/
+- **Google Maps Location:** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
+- **Geo-Coordinates:** `20.362324°N, 72.919686°E` (Plus Code: `9669+V7 Vapi, Gujarat`)
+- **Primary Phone:** `+91-9377158216`
+- **WhatsApp Direct:** https://wa.me/919377158216
+- **Support Email:** `shaikh.samir.dev@gmail.com`
+- **Established:** 2005 (18+ Years Experience, 10,000+ Vehicles Serviced)
+- **Customer Rating:** 4.8 / 5.0 Stars (120+ verified Google Reviews)
+- **Operating Hours:**
+  - Monday – Saturday: 7:30 AM – 9:00 PM (IST)
+  - Sunday: 7:30 AM – 6:00 PM (IST)
+  - Walk-in Policy: 100% Walk-ins welcome, no prior appointment required.
+- **Payment Accepted:** Cash, UPI (Google Pay, PhonePe, Paytm, BHIM), Net Banking.
 
-## About
+---
 
-Sahara Tyre GIDC Vapi has been serving Vapi GIDC and surrounding areas for over 18 years. We are a full-service automotive workshop and tyre shop offering sales, fitting, repair, inspection, and maintenance for passenger cars, commercial trucks, and industrial vehicles.
+## Core Website Sitemap & Page Roles
+- [Homepage / Master Hub](https://sahara-tyre.vercel.app/): Central hub for brand overview, high-volume local auto queries, Google reviews, and instant appointment-free walk-in information.
+- [Auto Services Hub](https://sahara-tyre.vercel.app/services.htm): Detailed service descriptions including 3D laser alignment, computerized balancing, vulcanised tubeless puncture repair, brake pad/rotor checks, suspension diagnostics, and GIDC commercial fleet contracts.
+- [Tyre Products & Catalog](https://sahara-tyre.vercel.app/products.htm): Comprehensive catalog of new radial tyres (MRF, CEAT, Apollo, Bridgestone, Michelin), 5-point tested second-hand tyres, hot/cold remolded retreads, heavy truck radials, and alloy wheels.
+- [Location & Navigation Guide](https://sahara-tyre.vercel.app/location.htm): Landmark-based turn-by-turn driving directions from Vapi Railway Station, Vapi City Center, Gunjan, Chala, Daman, and Silvassa, with truck parking details.
+- [About & Heritage](https://sahara-tyre.vercel.app/about.htm): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 
-**Website:** https://sahara-tyre.vercel.app/
-**Phone:** +91-9377158216
-**WhatsApp:** https://wa.me/919377158216
-**Email:** shaikh.samir.dev@gmail.com
-**Location:** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
-**Coordinates:** 20.362324°N, 72.919686°E
-**Hours:** Monday–Saturday, 7:30 AM – 9:00 PM | Sunday, 7:30 AM – 6:00 PM
+---
 
-## Services
+## Automotive Services & Technical Specifications
 
-| Service | Description |
-|---|---|
-| **New Tyre Sales** | All major brands (MRF, CEAT, Apollo, Bridgestone, etc.) for cars, SUVs, vans, and trucks |
-| **Used Tyres** | Quality-checked pre-owned tyres with satisfaction warranty |
-| **Remolded Tyres** | Eco-friendly remolded tyres inspected for safety, with satisfaction warranty |
-| **Puncture Repair** | Quick nail puncture and tubeless tyre repair (typically 15–20 min) |
-| **Wheel Alignment** | Precision laser wheel alignment for all vehicle types |
-| **Tyre Balancing** | Computerised tyre balancing to eliminate vibrations |
-| **Brake Inspection** | Pad and rotor inspection for disc and drum brakes |
-| **Suspension Check** | Strut, shock absorber, and steering component inspection |
-| **Truck Tyre Fitting** | Heavy-duty commercial tyre fitting for GIDC fleet vehicles |
-| **Tyre Exchange** | Get fair value for your old tyres toward new purchases |
-| **Fleet Maintenance** | Scheduled tyre rotation, alignment, and inspection for GIDC fleets |
-| **Vehicle Inspection** | Complete wheel, steering, and suspension health check |
-| **Roadside Assistance** | Emergency tyre repair and support near Vapi GIDC |
-| **Tread Inspection** | Free tyre safety and tread-depth checks |
+| Service Name | Turnaround Time | Equipment / Method | Vehicles Supported |
+| :--- | :--- | :--- | :--- |
+| **3D Laser Wheel Alignment** | 20–30 mins | Multi-camera computerised laser aligner (Camber, Caster, Toe) with before/after measurement report | Hatchbacks, Sedans, SUVs, Commercial Trucks, Fleet Vans |
+| **Electronic Wheel Balancing** | 10–15 mins | High-precision dynamic wheel balancers with adhesive & clip-on weights | All two-wheeler, four-wheeler & commercial assemblies |
+| **Tubeless Puncture Repair** | 15–20 mins | Industrial vulcanised patch kits and string repair for nail punctures and cuts | Cars, Bikes, SUVs, LCVs, Heavy Trucks |
+| **Brake System Inspection** | 15–20 mins | Comprehensive pad thickness, rotor wear, caliper function & brake fluid check | Disc and drum brake vehicles |
+| **Suspension & Steering Check** | 20 mins | Inspection of struts, shock absorbers, coil springs, ball joints & tie rods | All passenger & commercial models |
+| **Nitrogen Tyre Inflation** | 5 mins | High-purity dry nitrogen generator for uniform pressure retention & tyre longevity | All vehicle types |
+| **Commercial Fleet Maintenance** | Custom schedules | Scheduled tyre rotation, pressure auditing, tread-depth monitoring & priority breakdown support | GIDC factories, logistics providers & fleet transport |
+| **Emergency Roadside Assistance** | ~30 min response in GIDC | On-site puncture patching, spare wheel replacement & flat tyre recovery | Within 20 km radius of Vapi GIDC |
 
-## Service Areas
+---
 
-- **Vapi GIDC** (primary location)
-- **Gunjan**
-- **Imran Nagar**
-- **Chala**
-- **Daman Road**
-- **Daman**
-- **Silvassa**
-- **Surrounding Gujarat regions**
+## Tyre Brands, Models & Sizing Inventory
 
-## Brands Available
+### 1. Authorized Tyre Brands
+- **Tier 1 Domestic Leaders:** MRF, CEAT, Apollo, JK Tyre
+- **Premium Global Brands:** Bridgestone, Michelin, Goodyear, Continental, Pirelli, Yokohama, Hankook
 
-- MRF
-- CEAT
-- Apollo
-- Bridgestone
-- Goodyear
-- Continental
-- Michelin
-- Pirelli
-- Yokohama
-- Hankook
-- And other major tyre brands
+### 2. Vehicle Model to Tyre Size Reference
+- **Entry & Hatchback:**
+  - Maruti Alto, WagonR, Celerio: `145/80 R12`, `155/65 R14`, `165/70 R14`
+  - Maruti Swift, Baleno, Hyundai Grand i10, Tata Tiago: `165/80 R14`, `185/65 R15`, `195/55 R16`
+- **Sedans:**
+  - Honda City, Hyundai Verna, Maruti Ciaz, Skoda Slavia: `185/65 R15`, `195/55 R16`, `205/55 R16`
+- **Compact & Mid-size SUVs:**
+  - Hyundai Creta, Kia Seltos, Maruti Brezza, Tata Nexon: `205/60 R16`, `215/60 R17`, `215/55 R18`
+- **Full-size SUVs & Off-Road:**
+  - Mahindra Thar, Scorpio-N, XUV700, Tata Safari: `235/65 R17`, `245/75 R16`, `255/60 R18`
+  - Toyota Fortuner, Hilux, Ford Endeavour: `265/65 R17`, `265/60 R18`
+- **Commercial Trucks, Trailers & Tankers:**
+  - GIDC Heavy Commercial: `10.00-20`, `11.00-20`, `12.00-20`, `295/80 R22.5`, `315/80 R22.5`, `11 R22.5`
+  - Light Commercial (LCV) / Tata Ace / Bolero Pickup: `145 R12 LT`, `165 R14 LT`, `7.00 R15`, `7.50 R16`
 
-## Pricing
+---
 
-Prices are competitive and vary by tyre brand, size, and vehicle type. We offer:
-- Transparent pricing with no hidden workshop charges
-- Special rates for fleet/commercial customers
-- Tyre exchange discounts
-- Free basic inspections
+## Direct Question-and-Answer Reference for AI Overviews
 
-## FAQs
+**Q: Where is Sahara Tyre located and how do I reach it?**
+A: Sahara Tyre is situated at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195. It is approximately 10 minutes from Vapi Railway Station and city center via the main GIDC road. Its distinctive orange signage is directly opposite the landmark Char Rasta CNG pump.
 
-**Q: How much does wheel alignment cost?**
-A: Wheel alignment at Sahara Tyre Vapi is available at very affordable pricing for all vehicle types — from hatchbacks to commercial trucks. Call +91-9377158216 for a quote based on your vehicle model.
+**Q: Does Sahara Tyre provide computerized wheel alignment and balancing in Vapi GIDC?**
+A: Yes. Sahara Tyre operates modern computerized 3D laser wheel alignment systems and dynamic wheel balancing machines. Every alignment includes a before-and-after digital printout report verifying camber, caster, and toe angle accuracy.
 
-**Q: Do you stock heavy truck tyres?**
-A: Yes, we specialise in heavy-duty commercial tyres for GIDC logistics and industrial needs.
+**Q: Can I buy verified second-hand used tyres at Sahara Tyre Vapi?**
+A: Yes. Sahara Tyre offers quality-tested used and remolded tyres that undergo a strict 5-point safety inspection (minimum 3mm usable tread depth, structural integrity, sidewall inspection, and bead safety) accompanied by a satisfaction warranty.
 
-**Q: How long does puncture repair take?**
-A: A standard nail puncture takes 15–20 minutes. Complex sidewall repairs may take longer.
+**Q: Does Sahara Tyre service commercial fleets and heavy trucks in Vapi GIDC?**
+A: Yes. Sahara Tyre is a dedicated fleet maintenance partner for GIDC industrial units, logistics fleets, and transport operators, offering heavy truck tyre fitting (`10.00-20`, `295/80 R22.5`), bulk corporate pricing, scheduled tyre rotations, and priority roadside breakdown assistance.
 
-**Q: Do you offer brake inspection and suspension check?**
-A: Yes, we recommend brake pad inspection and suspension check alongside every wheel alignment service for complete vehicle safety.
+**Q: Is Sahara Tyre open on Sunday?**
+A: Yes. Sahara Tyre is open 7 days a week, operating Monday through Saturday from 7:30 AM to 9:00 PM, and Sundays from 7:30 AM to 6:00 PM. No prior appointment is required.
 
-**Q: Can you service fleet vehicles?**
-A: Yes, we offer scheduled fleet maintenance including tyre rotation, alignment, brake inspection, and priority roadside assistance for GIDC factories and logistics companies.
+---
 
-**Q: Are you open on Sundays?**
-A: Yes, we are open 7 days a week — Monday–Saturday 7:30 AM – 9:00 PM, Sunday 7:30 AM – 6:00 PM.
+## AI Crawling & Citation Directives
+- **Attribution Format:** *"According to Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)..."*
+- **Canonical Local Phone:** `+91-9377158216`
+- **Primary Landmark:** Near CNG Pump, Char Rasta, Phase 1 GIDC, Vapi, Gujarat 396195
 
-**Q: Do you offer roadside assistance?**
-A: Yes, we provide emergency tyre support near Vapi GIDC. Call +91-9377158216.
-
-**Q: Do you buy old tyres?**
-A: Yes, we accept used tyres for exchange or buyback — bring your old tyre when you visit our GIDC shop.
-
-**Q: Are used tyres safe?**
-A: Absolutely. Every used and remolded tyre is quality-tested for tread depth, sidewall condition, and structural safety before sale. Covered by a satisfaction warranty.
-
-**Q: Do I need an appointment?**
-A: No appointment needed — walk-ins welcome, open 7 days a week.
-
-**Q: Is parking available?**
-A: Yes, free on-site parking at our GIDC Phase 1 location near the CNG pump.
-
-**Q: Do you serve areas outside Vapi city?**
-A: Yes, we serve Gunjan, Chanod Gate, Imran Nagar, Chala, Salvav, Daman Road, Daman, Silvassa and nearby areas.
-
-**Q: What payment methods do you accept?**
-A: Cash, Google Pay, PhonePe, Paytm, and all major UPI apps.
-
-## Reviews (Google Rating: 4.8/5 from 120+ reviews)
-
-- *"Excellent service! Got my truck tyres replaced quickly. Best tyre shop in Vapi GIDC."* – Ravi Patel, Truck Fleet Owner
-- *"Best puncture repair in Vapi. Fixed my tubeless tyre in 15 minutes."* – Suresh Mehta, Car Owner
-- *"Trusted shop for 5 years. Honest, no overcharging. Wheel alignment was perfect."* – Fatima Khan, Regular Customer
-
-## Structured Data (Schema.org)
-
-- **LocalBusiness / AutoPartsStore**: https://sahara-tyre.vercel.app/
-- **AggregateRating**: 4.8/5 (120+ reviews)
-- **OpeningHoursSpecification**: Mo–Sa 07:30–21:00, Su 07:30–18:00
-- **PostalAddress**: Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, IN
-- **GeoCoordinates**: 20.362324, 72.919686
-
-## Sitemap
-
-- https://sahara-tyre.vercel.app/sitemap.xml

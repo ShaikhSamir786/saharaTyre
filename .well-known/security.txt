@@ -1,9 +1,12 @@
-# security.txt – Sahara Tyre
+# security.txt – Sahara Tyre GIDC Vapi
 # https://sahara-tyre.vercel.app/.well-known/security.txt
+# Standards reference: RFC 9116 (https://www.rfc-editor.org/rfc/rfc9116)
 
 Contact: mailto:shaikh.samir.dev@gmail.com
 Contact: tel:+91-9377158216
-Expires: 2027-05-09T00:00:00.000Z
+Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: en, hi, gu
 Canonical: https://sahara-tyre.vercel.app/.well-known/security.txt
 Policy: https://sahara-tyre.vercel.app/
+Acknowledgments: https://sahara-tyre.vercel.app/
+

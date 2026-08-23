@@ -1,14 +1,16 @@
 {
+  "id": "https://sahara-tyre.vercel.app/",
   "name": "Sahara Tyre GIDC Vapi",
   "short_name": "Sahara Tyre",
-  "description": "Best Tyre Shop & Auto Service Center in Vapi GIDC, Gujarat. New, used & remolded tyres, puncture repair, wheel alignment, brake inspection, truck tyre services since 2005.",
+  "description": "Vapi's premier tyre shop & auto service workshop. New, used & remolded tyres, 3D laser wheel alignment, balancing, puncture repair, and commercial fleet maintenance since 2005.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#f8fafc",
+  "background_color": "#0f172a",
   "theme_color": "#f97316",
   "orientation": "portrait-primary",
   "lang": "en-IN",
-  "scope": "/",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -23,6 +25,36 @@
       "purpose": "any"
     }
   ],
-  "categories": ["automotive", "shopping", "services"],
+  "shortcuts": [
+    {
+      "name": "Call Workshop",
+      "short_name": "Call",
+      "description": "Call Sahara Tyre Vapi directly",
+      "url": "tel:+919377158216",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Auto Services",
+      "short_name": "Services",
+      "description": "3D Laser Alignment, Balancing & Repairs",
+      "url": "/services.htm",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Tyre Catalog",
+      "short_name": "Tyres",
+      "description": "Browse New, Used & Remolded Tyres",
+      "url": "/products.htm",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Find Workshop",
+      "short_name": "Location",
+      "description": "Directions to Char Rasta GIDC Phase 1",
+      "url": "/location.htm",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "categories": ["automotive", "shopping", "services", "utilities"],
   "prefer_related_applications": false
 }

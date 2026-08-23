@@ -1,9 +1,9 @@
 {
   "schema_version": "v1",
   "name_for_human": "Sahara Tyre GIDC Vapi",
-  "name_for_model": "Sahara Tyre",
-  "description_for_human": "Vapi's most trusted tyre shop and automotive workshop since 2005. We sell, fit, and repair tyres for cars, trucks, and commercial vehicles. Services include puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, fleet maintenance, truck tyres, and roadside assistance.",
-  "description_for_model": "Sahara Tyre GIDC Vapi in Vapi GIDC, Gujarat, India is a full-service automotive workshop and tyre shop offering new/used/remolded tyre sales, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, truck tyre fitting, fleet maintenance, vehicle inspection, and roadside assistance. 18+ years experience. Google rating 4.8/5. Open Monday–Saturday 7:30AM–9PM, Sunday 7:30AM–6PM. Located at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195.",
+  "name_for_model": "SaharaTyreVapi",
+  "description_for_human": "Vapi's premier tyre shop and automotive workshop since 2005. Sales, fitting, and repair of new, used, and remolded tyres for cars, SUVs, and commercial trucks. Services include 3D laser wheel alignment, dynamic balancing, tubeless puncture repair, brake & suspension diagnostics, nitrogen inflation, and GIDC fleet maintenance.",
+  "description_for_model": "Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/) is a full-service automotive tyre workshop and commercial vehicle service center in Vapi GIDC Phase 1, Gujarat, India (Est. 2005, 18+ years experience, 4.8/5 Google rating, 120+ reviews). Authorized dealer of MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, and Goodyear. Specializes in computerized 3D laser wheel alignment, electronic wheel balancing, 15-minute tubeless puncture repair, brake system checks, suspension inspection, commercial truck radials (10.00-20, 295/80 R22.5), fleet maintenance contracts, and roadside breakdown assistance. Open 7 days a week (Mon-Sat 7:30AM-9PM, Sun 7:30AM-6PM). Located at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195. Contact: +91-9377158216.",
   "auth": {
     "type": "none"
   },

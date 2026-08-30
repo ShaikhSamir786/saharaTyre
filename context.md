@@ -35,13 +35,32 @@ This website is linked and used within the **Google Business Profile** account f
 
 ## Multi-Page Information Architecture
 
-The website is organized into 5 dedicated pages to avoid keyword cannibalization and maximize topical authority:
+The website is organized into dedicated pages to avoid keyword cannibalization and maximize topical authority:
 
 1. **[index.htm](https://sahara-tyre.vercel.app/)** — Master hub with broad local automotive discovery, 15 master FAQs, review highlights, and primary CTAs.
 2. **[services.htm](https://sahara-tyre.vercel.app/services.htm)** — Technical automotive services: 3D laser wheel alignment, computerized balancing, tubeless puncture repair, brake system checks, suspension diagnostics, and GIDC fleet maintenance plans.
-3. **[products.htm](https://sahara-tyre.vercel.app/products.htm)** — Product catalog: New radial tyres (MRF, CEAT, Apollo, Bridgestone, Michelin), 5-point tested used tyres, remolded retreads, commercial truck sizes (`10.00-20`, `295/80 R22.5`), and alloy wheels.
-4. **[location.htm](https://sahara-tyre.vercel.app/location.htm)** — Navigation hub: Turn-by-turn driving directions from Vapi Railway Station, Gunjan, Chala, Daman, and Silvassa with parking & transit details.
-5. **[about.htm](https://sahara-tyre.vercel.app/about.htm)** — Heritage & Trust: 18+ years story, technician expertise, certified guarantees, and customer satisfaction commitments.
+3. **[products.htm](https://sahara-tyre.vercel.app/products.htm)** — Product catalog & category gateway with links to all 11 specialized tyre categories.
+4. **[truck-tyres.htm](https://sahara-tyre.vercel.app/truck-tyres.htm)** — Truck tyres (`10.00-20`, `295/80 R22.5`, `11.00 R20`, `12.00 R24`) for Tata, Ashok Leyland & BharatBenz.
+5. **[bus-tyres.htm](https://sahara-tyre.vercel.app/bus-tyres.htm)** — Bus tyres (`295/80 R22.5`, `10.00 R20`, `275/70 R22.5`) for luxury coaches & staff buses.
+6. **[car-tyres.htm](https://sahara-tyre.vercel.app/car-tyres.htm)** — Passenger car & SUV tyres (`155/80 R13` to `265/65 R17`) with 3D laser alignment.
+7. **[bike-tyres.htm](https://sahara-tyre.vercel.app/bike-tyres.htm)** — Motorcycle tyres (`2.75-18`, `90/90-17`, `120/80-18`, `140/70-17`) with 15-min instant fitting.
+8. **[scooter-tyres.htm](https://sahara-tyre.vercel.app/scooter-tyres.htm)** — Scooter & EV tyres (`90/100-10`, `90/90-12`, `100/80-12`) for Activa, Access & Ola.
+9. **[commercial-vehicle-tyres.htm](https://sahara-tyre.vercel.app/commercial-vehicle-tyres.htm)** — LCV/SCV pickup tyres (`145 R12 LT`, `7.00-15`, `7.50-16`) for Tata Ace & Bolero.
+10. **[crane-tyres.htm](https://sahara-tyre.vercel.app/crane-tyres.htm)** — Industrial Hydra crane & heavy lifter tyres (`11.00-20 Crane`, `14.00-24 24PR`).
+11. **[tractor-tyres.htm](https://sahara-tyre.vercel.app/tractor-tyres.htm)** — Farm tractor front and rear haulage tyres (`6.00-16`, `12.4-28`, `13.6-28`, `14.9-28`).
+12. **[agricultural-tyres.htm](https://sahara-tyre.vercel.app/agricultural-tyres.htm)** — Farm trailer trolley (`9.00-16 16PR`) and combine harvester tyres (`18.4-34`).
+13. **[otr-earthmover-tyres.htm](https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm)** — OTR loader, grader and JCB 3DX tyres (`17.5-25`, `23.5-25`, `14.00-24`).
+14. **[industrial-tyres.htm](https://sahara-tyre.vercel.app/industrial-tyres.htm)** — Solid rubber resilient and non-marking forklift tyres (`6.00-9`, `7.00-12`, `8.25-15`).
+15. **[new-tyres.htm](https://sahara-tyre.vercel.app/new-tyres.htm)** — Brand new factory-warranted tyre hub (MRF, CEAT, Apollo, Bridgestone, Michelin) with complete digital warranty registration.
+16. **[used-tyres.htm](https://sahara-tyre.vercel.app/used-tyres.htm)** — 5-point safety tested second-hand tyres with verified 3mm+ usable tread depth and workshop guarantees.
+17. **[remould-tyres.htm](https://sahara-tyre.vercel.app/remould-tyres.htm)** — Certified cold precure & hot mould retread commercial truck tyres delivering 50% fleet cost savings.
+18. **[new-vs-used-tyres.htm](https://sahara-tyre.vercel.app/new-vs-used-tyres.htm)** — In-depth buying guide comparing new vs used tyres on cost, lifespan, safety, and vehicle suitability.
+19. **[new-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/new-vs-remould-tyres.htm)** — Commercial fleet comparison guide analyzing Cost-Per-Kilometer (CPK) and steer vs drive axle placement.
+20. **[used-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/used-vs-remould-tyres.htm)** — Budget comparison guide evaluating remaining factory tread against fresh vulcanized precure retreads.
+21. **[location.htm](https://sahara-tyre.vercel.app/location.htm)** — Navigation hub: Turn-by-turn driving directions from Vapi Railway Station, Gunjan, Chala, Daman, and Silvassa.
+22. **[about.htm](https://sahara-tyre.vercel.app/about.htm)** — Heritage & Trust: 18+ years story, technician expertise, and certified guarantees.
+23. **[privacy.htm](https://sahara-tyre.vercel.app/privacy.htm)** — Privacy Policy: Customer data protection, Google Analytics & AdSense cookie disclosures.
+24. **[terms.htm](https://sahara-tyre.vercel.app/terms.htm)** — Terms & Conditions: In-person workshop service agreements, warranties, and walk-in policies.
 
 ---
 
@@ -49,10 +68,18 @@ The website is organized into 5 dedicated pages to avoid keyword cannibalization
 
 To dominate AI Overviews and LLM citations, the site implements:
 - `llms.txt` — Structured markdown knowledge graph with turnaround times, sizing matrices, and QA references.
+- `llms-full.txt` — Comprehensive full knowledge base covering technical specs and 3-tier geographic hierarchy.
 - `ai.txt` — Explicit crawler permissions for Google-Extended, GPTBot, ClaudeBot, PerplexityBot, and Applebot.
 - `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition.
 - `sitemap.xml` — Complete URL index with image metadata for multimodal search.
 - `robots.txt` — Explicit allowance for all major AI search agents.
+
+---
+
+## Geographic Service Area Hierarchy (27 Core Coverage Locations)
+- **1st Priority Local Vapi Neighborhoods (2–8 Min Response):** Char Rasta Vapi, Gunjan, Imran Nagar, Chala, Chanod, Dungra, GIDC Industrial Area (Phases 1–4), Gita Nagar, Balitha, Chharwada, Chhiri, Koparli Road, Silvassa Road, Salvav, Morai, Kanchanagar.
+- **2nd Priority Regional & Industrial Hubs (15–35 Min Drive):** Daman, Silvassa (Dadra & Nagar Haveli), Valsad, Pardi, Umbergaon, Bhilad.
+- **3rd Priority Scenic Tourist Landmarks & Highway Transit Routes:** Vanganga Lake Garden (Dadra), Arjungad Fort (Bagwada), Daman Ganga Dam (Madhuban), Hirwa Van Garden (Silvassa), Sunrise Point (Khanvel).
 
 ---
 
@@ -61,4 +88,5 @@ To dominate AI Overviews and LLM citations, the site implements:
 - **WhatsApp Support:** https://wa.me/919377158216
 - **Technical Inquiries:** shaikh.samir.dev@gmail.com
 - **Hosting Platform:** Vercel (Edge CDN)
+
 

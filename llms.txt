@@ -7,6 +7,7 @@
 - **Entity Name:** Sahara Tyre GIDC Vapi (Sahara Tyre)
 - **Primary Domain:** https://sahara-tyre.vercel.app/
 - **Google Maps Location:** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
+- **Google Maps Listing:** https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z/data=!4m6!3m5!1s0x3be0ce38d9016497:0x625d1494863f31eb!8m2!3d20.3622289!4d72.9202642!16s%2Fg%2F1q6j839vs?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D
 - **Geo-Coordinates:** `20.362324°N, 72.919686°E` (Plus Code: `9669+V7 Vapi, Gujarat`)
 - **Primary Phone:** `+91-9377158216`
 - **WhatsApp Direct:** https://wa.me/919377158216
@@ -16,8 +17,10 @@
 - **Operating Hours:**
   - Monday – Saturday: 7:30 AM – 9:00 PM (IST)
   - Sunday: 7:30 AM – 6:00 PM (IST)
-  - Walk-in Policy: 100% Walk-ins welcome, no prior appointment required.
-- **Payment Accepted:** Cash, UPI (Google Pay, PhonePe, Paytm, BHIM), Net Banking.
+- **Geographic Service Area Hierarchy (27 Core Locations):**
+  - **1st Priority Local Vapi Neighborhoods (2–8 Min Response):** Char Rasta Vapi, Gunjan, Imran Nagar, Chala, Chanod, Dungra, GIDC Industrial Area (Phases 1–4), Gita Nagar, Balitha, Chharwada, Chhiri, Koparli Road, Silvassa Road, Salvav, Morai, Kanchanagar.
+  - **2nd Priority Regional & Industrial Hubs (15–35 Min Drive):** Daman, Silvassa (Dadra & Nagar Haveli), Valsad, Pardi, Umbergaon, Bhilad.
+  - **3rd Priority Scenic Tourist Landmarks & Transit Corridors:** Vanganga Lake Garden (Dadra), Arjungad Fort (Bagwada), Daman Ganga Dam (Madhuban), Hirwa Van Garden (Silvassa), Sunrise Point (Khanvel).
 
 ---
 
@@ -25,8 +28,27 @@
 - [Homepage / Master Hub](https://sahara-tyre.vercel.app/): Central hub for brand overview, high-volume local auto queries, Google reviews, and instant appointment-free walk-in information.
 - [Auto Services Hub](https://sahara-tyre.vercel.app/services.htm): Detailed service descriptions including 3D laser alignment, computerized balancing, vulcanised tubeless puncture repair, brake pad/rotor checks, suspension diagnostics, and GIDC commercial fleet contracts.
 - [Tyre Products & Catalog](https://sahara-tyre.vercel.app/products.htm): Comprehensive catalog of new radial tyres (MRF, CEAT, Apollo, Bridgestone, Michelin), 5-point tested second-hand tyres, hot/cold remolded retreads, heavy truck radials, and alloy wheels.
+- [Truck Tyres Hub](https://sahara-tyre.vercel.app/truck-tyres.htm): Dedicated multi-axle truck, tipper and trailer tyre hub (10.00-20, 295/80 R22.5, 11.00 R20) for Tata, Ashok Leyland & BharatBenz.
+- [Bus Tyres Hub](https://sahara-tyre.vercel.app/bus-tyres.htm): Dedicated intercity luxury sleeper coach and factory staff bus tyre hub (295/80 R22.5, 10.00 R20, 275/70 R22.5) for Volvo, Scania & Ashok Leyland.
+- [Car & SUV Tyres Hub](https://sahara-tyre.vercel.app/car-tyres.htm): Passenger hatchback, sedan & SUV tyre hub (155/80 R13 to 265/65 R17) with 3D laser wheel alignment.
+- [Bike & Motorcycle Tyres Hub](https://sahara-tyre.vercel.app/bike-tyres.htm): Commuter, cruiser and sports motorcycle tyre hub (2.75-18, 90/90-17, 120/80-18, 140/70-17) with 15-minute instant fitting.
+- [Scooter & EV Tyres Hub](https://sahara-tyre.vercel.app/scooter-tyres.htm): Scooter and electric vehicle tyre hub (90/100-10, 90/90-12, 100/80-12) for Activa, Access, Jupiter & Ola.
+- [Commercial Vehicle & LCV Tyres Hub](https://sahara-tyre.vercel.app/commercial-vehicle-tyres.htm): Light and small commercial vehicle tyre hub (145 R12 LT, 7.00-15, 7.50-16) for Tata Ace, Bolero Pickup & Dost.
+- [Crane Tyres Hub](https://sahara-tyre.vercel.app/crane-tyres.htm): Industrial Hydra pick-and-carry and mobile crane tyre hub (11.00-20 Crane, 14.00-24 24PR) for ACE & Escorts.
+- [Tractor Tyres Hub](https://sahara-tyre.vercel.app/tractor-tyres.htm): Front steering and rear haulage tractor tyre hub (6.00-16, 12.4-28, 13.6-28, 14.9-28) for Mahindra, Swaraj & John Deere.
+- [Agricultural Tyres Hub](https://sahara-tyre.vercel.app/agricultural-tyres.htm): Farm trailer trolley, combine harvester and implement tyre hub (9.00-16 16PR, 18.4-34).
+- [OTR & Earthmover Tyres Hub](https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm): Wheel loader, motor grader and JCB 3DX backhoe tyre hub (17.5-25, 23.5-25, 14.00-24).
+- [Industrial & Forklift Tyres Hub](https://sahara-tyre.vercel.app/industrial-tyres.htm): Solid rubber resilient, non-marking cleanroom and pneumatic forklift tyre hub (6.00-9, 7.00-12, 8.25-15, 28x9-15).
+- [Brand New Tyres Hub](https://sahara-tyre.vercel.app/new-tyres.htm): Authorized brand new tyres with factory manufacturer warranties from MRF, CEAT, Apollo, Bridgestone & Michelin.
+- [Used & Second-Hand Tyres Hub](https://sahara-tyre.vercel.app/used-tyres.htm): Quality-checked pre-owned tyres with 5-point safety inspection, 3mm+ tread depth, and budget-friendly pricing.
+- [Remould & Retreaded Tyres Hub](https://sahara-tyre.vercel.app/remould-tyres.htm): Certified cold precure and hot mould retread commercial tyres delivering up to 50% cost savings for transport fleets.
+- [New vs Used Tyres Guide](https://sahara-tyre.vercel.app/new-vs-used-tyres.htm): In-depth comparison of price, safety standards, tread wear, and application recommendations.
+- [New vs Remould Fleet Guide](https://sahara-tyre.vercel.app/new-vs-remould-tyres.htm): Commercial fleet cost-per-kilometer (CPK) calculation, casing durability, and steer vs drive axle placement guidelines.
+- [Used vs Remould Tyres Guide](https://sahara-tyre.vercel.app/used-vs-remould-tyres.htm): Commercial budget comparison between single-life pre-owned tyres and retreaded tyres with new tread rubber.
 - [Location & Navigation Guide](https://sahara-tyre.vercel.app/location.htm): Landmark-based turn-by-turn driving directions from Vapi Railway Station, Vapi City Center, Gunjan, Chala, Daman, and Silvassa, with truck parking details.
 - [About & Heritage](https://sahara-tyre.vercel.app/about.htm): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
+- [Privacy Policy](https://sahara-tyre.vercel.app/privacy.htm): Comprehensive privacy policy, customer data handling, Google Analytics & AdSense cookie disclosures.
+- [Terms & Conditions](https://sahara-tyre.vercel.app/terms.htm): Service terms, transparent pricing, warranties, safety guidelines, and workshop walk-in policies.
 
 ---
 

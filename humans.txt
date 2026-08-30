@@ -7,24 +7,31 @@ Proprietor / Founder: Mujaffar Shaikh
 Lead Alignment Technician: Shaikh Khurshid
 Commercial Fleet Specialist: Mohammad Riyaz
 Auto Diagnostics Specialist: Ashraf Pathan
-Location: Vapi GIDC, Gujarat, India
-Contact: +91-9377158216
-Email: shaikh.samir.dev@gmail.com
+Physical Workshop: Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
+Contact Phone: +91-9377158216
+WhatsApp: https://wa.me/919377158216
+Technical Email: shaikh.samir.dev@gmail.com
 
 /* SITE */
 Website: Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
-Established: 2005 (18+ Years Experience)
+Established: 2005 (18+ Years Continuous Service)
 Languages: English, Hindi, Gujarati
-Standards: HTML5, CSS3, Schema.org JSON-LD, RFC 9116, LLMs.txt
-Hosting: Vercel (Edge Network)
-Components: Tailwind CSS, Material Symbols, Google Analytics 4
+Architecture: 24 Semantic Static HTML Pages (11 Vehicle Hubs, 3 Condition Hubs, 3 Comparison Guides)
+Standards: HTML5, CSS3, Schema.org JSON-LD (AutoPartsStore, FAQPage, ItemList, BreadcrumbList), RFC 9116, LLMs.txt
+Hosting: Vercel (Edge CDN Network)
+Components: Tailwind CSS (Utility classes), Material Symbols, Google Analytics 4
 
 /* AUTOMOTIVE SERVICES */
-3D Laser Wheel Alignment, Electronic Wheel Balancing, Tubeless & Tube Puncture Repair, Brake System Inspection, Suspension & Steering Check, Truck Tyre Fitting (10.00-20, 295/80 R22.5), GIDC Industrial Fleet Maintenance, Nitrogen Inflation, Roadside Breakdown Assistance.
+3D Laser Wheel Alignment, Electronic Wheel Balancing, Tubeless & Tube Puncture Repair, Brake System Inspection, Suspension & Steering Check, Truck Tyre Fitting & Retreading, GIDC Industrial Fleet Maintenance, Nitrogen Inflation, 15-Minute Emergency Roadside Breakdown Assistance.
 
 /* PRODUCTS */
-New Radial Tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, Goodyear), Quality-Checked Used Tyres (5-Point Safety Tested), Certified Remolded & Retreaded Tyres, Alloy Wheels & Automotive Accessories.
+Brand New Tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, Goodyear), 5-Point Quality-Checked Pre-Owned Used Tyres, Certified Hot & Cold Remoulded Retread Commercial Tyres, Alloy Wheels & Automotive Accessories.
+
+/* GEOGRAPHIC COVERAGE */
+1st Priority Local Vapi Neighborhoods: Char Rasta Vapi, Gunjan, Imran Nagar, Chala, Chanod, Dungra, GIDC Industrial Area (Phases 1-4), Gita Nagar, Balitha, Chharwada, Chhiri, Koparli Road, Silvassa Road, Salvav, Morai, Kanchanagar.
+Regional Industrial Hubs: Daman, Silvassa (Dadra & Nagar Haveli), Valsad, Pardi, Umbergaon, Bhilad.
+Scenic Tourist Corridors: Vanganga Lake Garden, Arjungad Fort, Daman Ganga Dam, Hirwa Van Garden, Sunrise Point.
 
 /* THANKS */
-Thanks to over 10,000+ vehicle owners, fleet operators, and industrial logistics companies across Vapi GIDC, Gunjan, Chala, Chanod, Daman, and Silvassa for 18+ years of loyalty and trust.
+Special thanks to over 10,000+ personal vehicle owners, transport fleet managers, factory logistics operators, and highway travelers across South Gujarat, Daman, and Dadra & Nagar Haveli for choosing Sahara Tyre since 2005.
 

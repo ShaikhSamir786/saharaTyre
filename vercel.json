@@ -1,47 +1,61 @@
 {
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.htm"
-    },
-    {
-      "source": "/services",
-      "destination": "/services.htm"
-    },
-    {
-      "source": "/products",
-      "destination": "/products.htm"
-    },
-    {
-      "source": "/location",
-      "destination": "/location.htm"
-    },
-    {
-      "source": "/contact",
-      "destination": "/location.htm"
-    },
-    {
-      "source": "/about",
-      "destination": "/about.htm"
-    }
+    { "source": "/", "destination": "/index.htm" },
+    { "source": "/services", "destination": "/services.htm" },
+    { "source": "/products", "destination": "/products.htm" },
+    { "source": "/location", "destination": "/location.htm" },
+    { "source": "/contact", "destination": "/location.htm" },
+    { "source": "/about", "destination": "/about.htm" },
+    { "source": "/truck-tyres", "destination": "/truck-tyres.htm" },
+    { "source": "/bus-tyres", "destination": "/bus-tyres.htm" },
+    { "source": "/car-tyres", "destination": "/car-tyres.htm" },
+    { "source": "/bike-tyres", "destination": "/bike-tyres.htm" },
+    { "source": "/scooter-tyres", "destination": "/scooter-tyres.htm" },
+    { "source": "/commercial-vehicle-tyres", "destination": "/commercial-vehicle-tyres.htm" },
+    { "source": "/crane-tyres", "destination": "/crane-tyres.htm" },
+    { "source": "/tractor-tyres", "destination": "/tractor-tyres.htm" },
+    { "source": "/agricultural-tyres", "destination": "/agricultural-tyres.htm" },
+    { "source": "/otr-earthmover-tyres", "destination": "/otr-earthmover-tyres.htm" },
+    { "source": "/industrial-tyres", "destination": "/industrial-tyres.htm" },
+    { "source": "/new-tyres", "destination": "/new-tyres.htm" },
+    { "source": "/used-tyres", "destination": "/used-tyres.htm" },
+    { "source": "/remould-tyres", "destination": "/remould-tyres.htm" },
+    { "source": "/new-vs-used-tyres", "destination": "/new-vs-used-tyres.htm" },
+    { "source": "/new-vs-remould-tyres", "destination": "/new-vs-remould-tyres.htm" },
+    { "source": "/used-vs-remould-tyres", "destination": "/used-vs-remould-tyres.htm" },
+    { "source": "/privacy", "destination": "/privacy.htm" },
+    { "source": "/terms", "destination": "/terms.htm" }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
-        }
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "geolocation=(self)" },
+        { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }
       ]
     },
     {
       "source": "/index.htm",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache"
-        }
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/(llms.txt|llms-full.txt|ai.txt|humans.txt)",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/.well-known/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ]

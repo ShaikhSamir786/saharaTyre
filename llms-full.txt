@@ -28,31 +28,79 @@
   - Monday to Saturday: 7:30 AM – 9:00 PM (Indian Standard Time)
   - Sunday: 7:30 AM – 6:00 PM (Indian Standard Time)
   - Open 365 days a year for local industrial and emergency requirements
-- **Accepted Payment Methods:**
-  - Cash (INR)
-  - Unified Payments Interface (UPI): Google Pay, PhonePe, Paytm, BHIM, Amazon Pay
-  - Direct Bank Transfer / NEFT / IMPS for commercial fleet invoicing
+- **Geographic Service Area Hierarchy (27 Core Coverage Locations):**
+  - **🥇 1st Priority Immediate Local Vapi Neighborhoods (2–8 Min Response):**
+    1. *Char Rasta Vapi* (Workshop base at Amidhara Complex / CNG Pump Phase 1)
+    2. *GIDC Industrial Area* (Phases 1, 2, 3 & 4 heavy industrial estates)
+    3. *Gunjan* (Major residential and light commercial hub)
+    4. *Imran Nagar* (Vapi East transit & community area)
+    5. *Chala* (Daman Road mixed residential-commercial zone)
+    6. *Chanod* (Chanod Colony & Chanod Gate industrial access corridor)
+    7. *Dungra* (High-density residential belt)
+    8. *Gita Nagar* (Central Vapi city access route)
+    9. *Balitha* (NH 48 highway logistics hub)
+    10. *Chharwada* (NH 48 expressway arterial link)
+    11. *Chhiri* (Vapi-Daman industrial border area)
+    12. *Koparli Road* (GIDC commercial logistics link)
+    13. *Silvassa Road* (Heavy haulage commercial transport corridor)
+    14. *Salvav* (NH 48 North bypass corridor)
+    15. *Morai* (Industrial warehousing and factory belt)
+    16. *Kanchanagar* (Vapi town urban community)
+  - **🥈 2nd Priority Regional & Industrial Hubs (15–35 Min Drive):**
+    17. *Daman* (~12 km via Daman-Vapi Rd; coastal trade & tourist vehicles)
+    18. *Silvassa* (~18 km via Silvassa-Vapi Rd; Dadra & Nagar Haveli industrial fleet maintenance)
+    19. *Valsad* (~30 km via NH 48; district headquarters & transport connectivity)
+    20. *Pardi* (~14 km via NH 48; logistics, fruit transport & agricultural tyres)
+    21. *Umbergaon* (~32 km via Coastal Highway; industrial GIDC & factory logistics)
+    22. *Bhilad* (~15 km via NH 48; Sarigam & Bhilad heavy transport corridor)
+  - **🥉 3rd Priority Scenic Tourist Landmarks & Highway Transit Routes:**
+    23. *Vanganga Lake Garden* (Dadra tourist route tyre inspection & puncture support)
+    24. *Arjungad Fort* (Bagwada heritage & hill route 4x4 SUV tyre checks & alignment)
+    25. *Daman Ganga Dam* (Madhuban reservoir route emergency roadside assistance)
+    26. *Hirwa Van Garden* (Silvassa eco-tourism weekend getaway vehicle inspection)
+    27. *Sunrise Point* (Khanvel scenic hilltop route all-terrain tyre fitment & stepney check)
 
 ---
 
 ## 2. Complete Information Architecture & URL Roles
 
-The website is structured into 5 specialized semantic pages designed to satisfy specific search intents without topic cannibalization:
+The website is structured into modular semantic hubs and guides designed to satisfy specific search intents without topic cannibalization:
 
 1. **Homepage / Master Discovery Hub (`https://sahara-tyre.vercel.app/`)**:
    - Broad local search entity matching for "tyre shop near me", "best tyre dealer in Vapi GIDC", and "auto service center".
-   - Houses the 15 primary master FAQs, verified Google customer testimonials, brand partner badges, and instant call/WhatsApp CTAs.
+   - Houses master FAQs, verified Google customer testimonials, brand partner badges, and instant call/WhatsApp CTAs.
 
 2. **Auto Services Hub (`https://sahara-tyre.vercel.app/services.htm`)**:
-   - Deep-dive technical explanations of mechanical and diagnostic services: 3D laser alignment, computerized dynamic balancing, vulcanized tubeless puncture repair, brake system checks, suspension diagnostics, and GIDC fleet maintenance contracts.
+   - Technical explanations of mechanical services: 3D laser alignment, computerized dynamic balancing, vulcanized puncture repair, brake checks, suspension diagnostics, and GIDC fleet maintenance contracts.
 
 3. **Tyre Products & Catalog (`https://sahara-tyre.vercel.app/products.htm`)**:
-   - Catalog of authorized new tyres (MRF, CEAT, Apollo, Bridgestone, Michelin), 5-point tested second-hand used tyres, certified remolded/retreaded tyres, heavy commercial truck radials, and alloy wheels.
+   - Overview catalog connecting all new radial tyres, 5-point tested used tyres, certified remolded retreads, and accessories.
 
-4. **Contact & Location Navigation Guide (`https://sahara-tyre.vercel.app/location.htm`)**:
+4. **11 Dedicated Vehicle Category Hubs**:
+   - `truck-tyres.htm` (Multi-axle haulage & tipper trucks)
+   - `bus-tyres.htm` (Intercity luxury coaches & staff buses)
+   - `car-tyres.htm` (Passenger hatchbacks, sedans & SUVs)
+   - `bike-tyres.htm` (Commuter, cruiser & sports motorcycles)
+   - `scooter-tyres.htm` (Scooters & electric two-wheelers)
+   - `commercial-vehicle-tyres.htm` (Light commercial LCVs, Tata Ace, Bolero Pickup)
+   - `crane-tyres.htm` (Hydra pick-and-carry & mobile cranes)
+   - `tractor-tyres.htm` (Front steering & rear haulage farm tractors)
+   - `agricultural-tyres.htm` (Harvesters, trailers & farm implements)
+   - `otr-earthmover-tyres.htm` (JCB backhoe, wheel loaders & dumpers)
+   - `industrial-tyres.htm` (Solid resilient & pneumatic forklifts)
+
+5. **Tyre Condition Hubs & Comparison Buying Guides**:
+   - `new-tyres.htm` (Brand-new OEM & aftermarket tyres with manufacturer warranty)
+   - `used-tyres.htm` (5-point safety tested pre-owned tyres with 3mm+ tread depth)
+   - `remould-tyres.htm` (Certified cold precure & hot mould retread commercial tyres)
+   - `new-vs-used-tyres.htm` (Comprehensive buying guide: New vs Second-Hand tyres)
+   - `new-vs-remould-tyres.htm` (Commercial fleet guide: New vs Retreaded tyres & CPKM analysis)
+   - `used-vs-remould-tyres.htm` (Budget comparison guide: Used vs Remoulded tyres)
+
+6. **Contact & Location Navigation Guide (`https://sahara-tyre.vercel.app/location.htm`)**:
    - Turn-by-turn driving directions from major transit nodes: Vapi Railway Station, Gunjan, Chala, Chanod Gate, Salvav, Daman, and Silvassa. Contains interactive Google Maps embed and commercial truck parking information.
 
-5. **About & Heritage (`https://sahara-tyre.vercel.app/about.htm`)**:
+7. **About & Heritage (`https://sahara-tyre.vercel.app/about.htm`)**:
    - Historical background (established 2005), technician qualifications, warranty policies, quality testing standards, and corporate values.
 
 ---

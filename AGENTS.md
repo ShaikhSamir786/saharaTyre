@@ -14,14 +14,22 @@ This project uses specialized agent skills located in `agents/skills/`. Each ski
 | `ui-ux-engineer.md` | Visual and interaction design direction | "How should this look/flow" questions, design system decisions |
 | `frontend-engineer.md` | Client-side HTML/CSS/JS implementation & DOM performance | UI building, component structure, responsive layout, font loading |
 
-## How to Use Skills
+## Mandatory Pre-Change Protocol: Use ALL Skills
 
-When your task matches a skill's domain, read and follow the instructions in that skill file:
+> **CRITICAL DIRECTIVE:** Before proposing or executing **ANY** code, content, layout, styling, SEO, or configuration changes in this repository, the AI assistant **MUST ALWAYS read and evaluate against ALL 5 specialized skills**.
+
+### Required Skill Pre-Flight Checklist
+Before modifying any file, consult and verify against each domain:
+1. `Read agents/skills/performance-engineer.md` — Verify no performance regressions, bundle bloat, or blocking assets.
+2. `Read agents/skills/seo-engineer.md` — Protect structured data (JSON-LD), crawlability, Core Web Vitals, and meta tags.
+3. `Read agents/skills/Seo-keyword-research-implementation.skill.md` — Maintain search intent, keyword mapping, NAP consistency, and avoid cannibalization.
+4. `Read agents/skills/ui-ux-engineer.md` — Ensure visual hierarchy, mobile-first design, trust signals, and clear CTA flows.
+5. `Read agents/skills/frontend-engineer.md` — Ensure semantic HTML5, zero CLS, responsive styling, and accessibility (WCAG AA).
 
 ```
 Read agents/skills/performance-engineer.md
 Read agents/skills/seo-engineer.md
-Read agents/skills/seo-keyword-research-implementation.skill.md
+Read agents/skills/Seo-keyword-research-implementation.skill.md
 Read agents/skills/ui-ux-engineer.md
 Read agents/skills/frontend-engineer.md
 ```

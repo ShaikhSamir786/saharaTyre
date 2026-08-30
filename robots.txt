@@ -39,11 +39,13 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Dedicated AI Context Endpoints
+# Dedicated AI, Human & Security Endpoints
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /ai.txt
+Allow: /humans.txt
 Allow: /.well-known/ai-plugin.json
+Allow: /.well-known/security.txt
 
 # Sitemaps & Feeds
 Sitemap: https://sahara-tyre.vercel.app/sitemap.xml

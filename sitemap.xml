@@ -70,5 +70,127 @@
         </image:image>
     </url>
 
+    <!-- Dedicated Tyre Category Hubs -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/truck-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/bus-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/car-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/bike-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/scooter-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/commercial-vehicle-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/crane-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tractor-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/agricultural-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/industrial-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- Tyre Condition Hubs & Buying Guides -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/new-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/used-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/remould-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/new-vs-used-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/new-vs-remould-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/used-vs-remould-tyres.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/privacy.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Terms and Conditions -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/terms.htm</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
 </urlset>
 

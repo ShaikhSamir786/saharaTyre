@@ -39,6 +39,12 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+User-agent: MicrosoftBot
+Allow: /
+
+User-agent: Copilot
+Allow: /
+
 # Dedicated AI, Human & Security Endpoints
 Allow: /llms.txt
 Allow: /llms-full.txt

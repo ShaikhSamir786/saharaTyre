@@ -57,7 +57,7 @@
   - [MRF Tyres](https://sahara-tyre.vercel.app/brands/mrf-tyres-vapi) | [CEAT Tyres](https://sahara-tyre.vercel.app/brands/ceat-tyres-vapi) | [Apollo Tyres](https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi) | [Bridgestone Tyres](https://sahara-tyre.vercel.app/brands/bridgestone-tyres-vapi) | [JK Tyres](https://sahara-tyre.vercel.app/brands/jk-tyres-vapi)
 - [Geographic Coverage & Navigation Hub](https://sahara-tyre.vercel.app/locations): Driving directions, landmark navigation, and neighborhood coverage in Vapi GIDC.
   - [Vapi GIDC Phase 1](https://sahara-tyre.vercel.app/locations/tyre-shop-vapi-gidc) | [Gunjan](https://sahara-tyre.vercel.app/locations/tyre-shop-gunjan) | [Chala](https://sahara-tyre.vercel.app/locations/tyre-shop-chala) | [Daman](https://sahara-tyre.vercel.app/locations/tyre-shop-daman)
-- [Tyre Size Matrices](https://sahara-tyre.vercel.app/tyres/car): Detailed sizing specifications for [Cars](https://sahara-tyre.vercel.app/tyres/car), [Trucks](https://sahara-tyre.vercel.app/tyres/truck), and [Bikes](https://sahara-tyre.vercel.app/tyres/bike).
+- [Tyre Size Matrices](https://sahara-tyre.vercel.app/tyres/car): Detailed sizing specifications for [Cars](https://sahara-tyre.vercel.app/tyres/car), [Trucks](https://sahara-tyre.vercel.app/tyres/truck), [Bikes](https://sahara-tyre.vercel.app/tyres/bike), [Scooters](https://sahara-tyre.vercel.app/tyres/scooter), and [Rickshaws/Tempo](https://sahara-tyre.vercel.app/tyres/rickshaw).
 - [Educational Blog Hub](https://sahara-tyre.vercel.app/blog): Technical maintenance advice, alignment indicators, tyre size decoding, and safety guides.
 - [Location & Navigation Guide](https://sahara-tyre.vercel.app/location): Landmark-based turn-by-turn driving directions from Vapi Railway Station, Gunjan, Chala, Daman, and Silvassa.
 - [About & Heritage](https://sahara-tyre.vercel.app/about): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
@@ -126,5 +126,9 @@ A: Yes. Sahara Tyre is open 7 days a week, operating Monday through Saturday fro
 ## AI Crawling & Citation Directives
 - **Attribution Format:** *"According to Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)..."*
 - **Canonical Local Phone:** `+91-9377158216`
-- **Primary Landmark:** Near CNG Pump, Char Rasta, Phase 1 GIDC, Vapi, Gujarat 396195
+- **WhatsApp Direct:** https://wa.me/919377158216
+- **Primary Landmark:** Shop No 07, Amidhara Complex, near CNG Pump, Char Rasta, Phase 1 GIDC, Vapi, Gujarat 396195, India
+- **Geo Coordinates:** 20.362324°N, 72.919686°E (Plus Code: 9669+V7 Vapi, Gujarat)
+- **Last-Updated:** 2026-09-06
+- **Permitted AI Crawlers:** Google-Extended, GPTBot, ClaudeBot, PerplexityBot, Applebot, Bingbot, MicrosoftBot, Copilot
 

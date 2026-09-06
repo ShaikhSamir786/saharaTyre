@@ -1,1093 +1,807 @@
-# Detailed SEO Audit — Sahara Tyre
+Based on your Lighthouse report, the **84 Accessibility score is fixable**, and the issues are fairly clear. Since Performance, SEO, and Best Practices are already excellent, I would focus on these four areas.
 
-I audited the publicly accessible content of your website: [Sahara Tyre Website](https://sahara-tyre.vercel.app/)
+# 1. `svg` elements do not have accessible names
 
-## Overall SEO Assessment: **7/10**
+This usually happens when you have **SVG icons being used as buttons or interactive controls**.
 
-The website has a **strong foundation for Local SEO**, especially for searches related to Vapi and Vapi GIDC. However, there are some important issues—particularly **keyword targeting, content quality, local SEO trust signals, and potential over-optimization**.
+For example, you may have floating buttons like:
 
----
+* Phone icon
+* WhatsApp icon
+* Menu icon
+* Close icon
+* Social media icons
+* Carousel arrows
+* Search/filter icons
 
-# 1. Executive Summary
+## ❌ Problem
 
-### 🟢 Strengths
-
-* Strong location targeting for **Vapi + Vapi GIDC**
-* Clear business address and phone number
-* Good service coverage
-* Strong FAQ section
-* Multiple tyre categories
-* Good internal content opportunities
-* Google Maps and WhatsApp CTAs
-* Clear commercial intent
-
-### 🔴 Biggest Problems
-
-1. Homepage is trying to rank for **too many keywords at once**
-2. Excessive location/service-area content may appear unnatural
-3. Some claims could create **trust and credibility issues**
-4. Important services should have dedicated SEO landing pages
-5. The homepage contains potential keyword stuffing
-6. Local SEO authority outside the website needs strengthening
-7. Need stronger schema validation and technical SEO verification
-8. Brand/domain strategy should eventually move away from the default `.vercel.app` domain
-
----
-
-# 2. Homepage SEO Analysis
-
-## Current Main Heading
-
-> **Sahara Tyre – Premium Tyre Shop & Auto Service Center in Vapi GIDC**
-
-This is good.
-
-It contains:
-
-* Sahara Tyre → Brand
-* Tyre Shop → Primary keyword
-* Auto Service Center → Secondary keyword
-* Vapi GIDC → Location
-
-### Score: **9/10**
-
-### Recommended H1
-
-I would slightly simplify it:
-
-**Tyre Shop in Vapi GIDC – Sahara Tyre & Auto Service Center**
-
-Why?
-
-People are more likely to search:
-
-* tyre shop in Vapi
-* tyre shop near me
-* tyre shop Vapi GIDC
-
-Putting the primary search phrase earlier can improve keyword relevance.
-
----
-
-# 3. Keyword Targeting Problem ⚠️
-
-Your homepage currently targets a huge number of services:
-
-* New tyres
-* Used tyres
-* Remolded tyres
-* Truck tyres
-* Car tyres
-* Wheel alignment
-* Tyre balancing
-* Brake inspection
-* Suspension
-* Fleet maintenance
-* Roadside assistance
-* Vehicle inspection
-
-The website says all of these things across one main page. ([Sahara Tyre][1])
-
-### The Problem
-
-Google generally performs better when each important service has a **dedicated, highly relevant page**.
-
-Currently, you're potentially asking Google:
-
-> "Please rank this one page for everything."
-
-That makes topical relevance weaker.
-
----
-
-# 4. Recommended SEO Website Structure ⭐
-
-I strongly recommend this structure:
-
-```text
-/
-├── tyre-shop-vapi/
-├── new-tyres-vapi/
-├── used-tyres-vapi/
-├── remolded-tyres-vapi/
-│
-├── car-tyres-vapi/
-├── bike-tyres-vapi/
-├── truck-tyres-vapi/
-├── commercial-tyres-vapi/
-│
-├── wheel-alignment-vapi/
-├── wheel-balancing-vapi/
-├── puncture-repair-vapi/
-├── roadside-tyre-assistance-vapi/
-│
-├── tyre-brands/
-│   ├── mrf-tyres-vapi/
-│   ├── ceat-tyres-vapi/
-│   ├── apollo-tyres-vapi/
-│   └── jk-tyres-vapi/
-│
-├── tyre-sizes/
-│   ├── car-tyre-sizes/
-│   ├── truck-tyre-sizes/
-│   └── bike-tyre-sizes/
-│
-├── about/
-├── contact/
-└── blog/
+```jsx
+<button onClick={handleCall}>
+  <Phone />
+</button>
 ```
 
-This would significantly improve your ability to rank for individual services.
+A screen reader only sees a button with no name.
 
----
+## ✅ Fix
 
-# 5. Local SEO Audit 📍
-
-## Current Local SEO Strength
-
-Your website does a good job mentioning:
-
-* Vapi
-* Vapi GIDC
-* Gunjan
-* Chala
-* Daman Road
-* Silvassa
-* Daman
-* Valsad
-
-The business address is clearly visible:
-
-> Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195. ([Sahara Tyre][1])
-
-### This is good for NAP consistency.
-
-NAP means:
-
-**N — Name**
-**A — Address**
-**P — Phone Number**
-
----
-
-## ⚠️ Major Local SEO Concern: Too Many Location Mentions
-
-Your homepage has a very large "Areas & Landmark Corridors We Serve" section.
-
-It includes locations such as:
-
-* Daman
-* Silvassa
-* Valsad
-* Pardi
-* Umbergaon
-* Bhilad
-
-And even tourist landmarks.
-
-The content also contains very specific response times such as:
-
-> "1–3 Min Response"
-
-and
-
-> "Average On-Site / Walk-in Time: 2–8 Minutes"
-
-([Sahara Tyre][1])
-
-### Why this is risky
-
-If these claims aren't consistently true, they can:
-
-* reduce trust
-* increase bounce rate
-* create misleading expectations
-
-Also, creating huge lists of locations purely for SEO can look like **location stuffing**.
-
-### Recommendation
-
-Keep the homepage focused on:
-
-```text
-Vapi
-Vapi GIDC
-Gunjan
-Chala
-Imran Nagar
-Daman Road
+```jsx
+<button
+  onClick={handleCall}
+  aria-label="Call Sahara Tyre"
+>
+  <Phone aria-hidden="true" />
+</button>
 ```
 
-Then create dedicated, useful location pages only where you genuinely provide service.
+### For WhatsApp
 
-Example:
-
-```text
-/tyre-shop-vapi/
-/tyre-shop-vapi-gidc/
-/tyre-shop-gunjan/
-/tyre-shop-daman/
+```jsx
+<a
+  href="https://wa.me/919377158216"
+  aria-label="Contact Sahara Tyre on WhatsApp"
+>
+  <MessageCircle aria-hidden="true" />
+</a>
 ```
 
-⚠️ Don't create hundreds of nearly identical location pages.
+### For Directions
 
----
-
-# 6. Service Page Opportunity — HIGH PRIORITY 🔥
-
-Your website already mentions excellent services, including:
-
-* Wheel alignment
-* Tyre balancing
-* Puncture repair
-* Brake inspection
-* Suspension check
-* Fleet maintenance
-
-([Sahara Tyre][1])
-
-But each service should have its own optimized page.
-
----
-
-## Example: Wheel Alignment Page
-
-### URL
-
-```text
-/wheel-alignment-vapi/
-```
-
-### SEO Title
-
-```text
-Wheel Alignment in Vapi | 3D Wheel Alignment – Sahara Tyre
-```
-
-### H1
-
-```text
-Professional Wheel Alignment in Vapi
-```
-
-### Target Keywords
-
-```text
-wheel alignment vapi
-car wheel alignment vapi
-wheel alignment near me
-3d wheel alignment vapi
-wheel balancing and alignment vapi
+```jsx
+<a
+  href="YOUR_GOOGLE_MAPS_LINK"
+  aria-label="Get directions to Sahara Tyre"
+>
+  <MapPin aria-hidden="true" />
+</a>
 ```
 
 ---
 
-# 7. Content Quality Audit ✍️
+# 2. SVG contrast problems
 
-## Good
+Lighthouse found multiple SVG icons with insufficient contrast.
 
-The FAQ section is excellent from a content coverage perspective.
+From your screenshot, likely candidates include:
 
-It answers questions about:
+* Navbar icons
+* Floating call button icon
+* Floating WhatsApp button icon
+* Social media icons
+* Footer icons
+* Decorative icons
 
-* wheel alignment
-* tyre brands
-* truck tyres
-* puncture repair
-* used tyres
-* opening hours
-* roadside assistance
-* fleet maintenance
+## Important distinction
 
-([Sahara Tyre][1])
+### Decorative SVG
 
-### Score: **9/10**
+If the SVG is purely decorative:
 
----
+```jsx
+<Icon aria-hidden="true" />
+```
 
-## But There Is a Trust Issue ⚠️
+This removes it from screen readers.
 
-Some statements are very strong:
+### Meaningful SVG
 
-> "The most reliable automotive workshop in Gujarat."
+If the SVG provides important information, give it an accessible name:
 
-> "Vapi's most trusted automotive workshop."
+```jsx
+<svg
+  role="img"
+  aria-label="Phone"
+>
+```
 
-> "Trusted by hundreds of vehicle owners"
+However, for most icon buttons, the **button should have the label**, while the SVG should be hidden:
 
-([Sahara Tyre][1])
-
-Unless these claims can be objectively supported, I recommend softer wording.
-
-### Better:
-
-❌ Instead of:
-
-> Most reliable automotive workshop in Gujarat
-
-✅ Use:
-
-> Trusted tyre and auto service center in Vapi GIDC
-
----
-
-# 8. Reviews Section — Important Warning 🚨
-
-Your website displays testimonials with names such as:
-
-* Ravi Patel
-* Suresh Mehta
-* Fatima Khan
-
-([Sahara Tyre][1])
-
-If these are genuine customer reviews, that's fine.
-
-However:
-
-### If these are manually created/sample testimonials:
-
-**Remove them immediately.**
-
-Instead:
-
-* Pull genuine Google reviews
-* Display the original reviewer
-* Link to Google Maps
-* Never create fictional customer testimonials
-
-This is important for both trust and SEO.
-
----
-
-# 9. Keyword Strategy
-
-## Primary Keywords 🎯
-
-Focus heavily on:
-
-```text
-tyre shop in vapi
-tyre shop vapi
-tyre shop vapi gidc
-tyre dealer vapi
-tyre shop near me
+```jsx
+<button aria-label="Call Sahara Tyre">
+  <Phone aria-hidden="true" />
+</button>
 ```
 
 ---
 
-## Service Keywords
+# 3. Touch targets are too small
 
-```text
-wheel alignment vapi
-wheel balancing vapi
-puncture repair vapi
-tyre repair vapi
-car tyre shop vapi
-truck tyre shop vapi
-used tyres vapi
-second hand tyres vapi
-remolded tyres vapi
+This is probably one of the biggest contributors to your accessibility score.
+
+Lighthouse recommends interactive elements have approximately:
+
+### ✅ Minimum target size
+
+```css
+min-width: 44px;
+min-height: 44px;
 ```
 
----
-
-## Commercial Keywords 💰
-
-These are potentially valuable:
-
-```text
-buy tyres in vapi
-car tyres price vapi
-truck tyres vapi
-mrf tyres vapi
-ceat tyres vapi
-apollo tyres vapi
-used tyres price vapi
-```
-
----
-
-# 10. Tyre Brand SEO Opportunity 🔥
-
-Your website mentions:
-
-* MRF
-* CEAT
-* Apollo
-* Bridgestone
-* JK Tyre
-* Goodyear
-* Michelin
-
-([Sahara Tyre][1])
-
-Don't just list them.
-
-Create pages like:
-
-```text
-/mrf-tyres-vapi/
-/ceat-tyres-vapi/
-/apollo-tyres-vapi/
-/jk-tyres-vapi/
-```
-
-Each page should include:
-
-### Example Structure
-
-```text
-MRF Tyres in Vapi
-
-Popular MRF Tyres Available
-
-• Car Tyres
-• SUV Tyres
-• Truck Tyres
-• Commercial Tyres
-
-Popular Sizes
-
-Tyre Size | Vehicle Type
-
-195/65 R15 | Sedan
-205/55 R16 | Sedan
-215/60 R16 | SUV
-```
-
-This can attract **high-intent Google searches**.
-
----
-
-# 11. Tyre Size SEO — Massive Opportunity 🚀
-
-This could become one of the strongest SEO strategies for Sahara Tyre.
-
-People search:
-
-```text
-195 65 r15 tyre price
-205 55 r16 tyre
-215 60 r16 tyre
-10.00 20 truck tyre
-295 80 r22.5 tyre
-```
-
-Create pages like:
-
-```text
-/tyres/195-65-r15/
-/tyres/205-55-r16/
-/tyres/215-60-r16/
-/truck-tyres/1000-20/
-/truck-tyres/1200-20/
-```
-
-Each page should contain:
-
-* Tyre size
-* Compatible vehicles
-* Available brands
-* Tyre type
-* New / Used / Remolded availability
-* Inquiry CTA
-* Local availability in Vapi
-
----
-
-# 12. Internal Linking Audit 🔗
-
-Your homepage has multiple internal links to products, services, and information pages. ([Sahara Tyre][1])
-
-That's good.
-
-### But you should build a stronger internal linking system.
-
-Example:
-
-### Homepage
-
-```text
-Tyre Shop Vapi
-   ↓
-Car Tyres Vapi
-   ↓
-Tyre Size
-   ↓
-Brand
-```
-
-Example:
-
-```text
-Wheel Alignment Vapi
-        ↓
-Wheel Balancing Vapi
-        ↓
-Suspension Inspection
-```
-
-This helps Google understand your website hierarchy.
-
----
-
-# 13. Blog SEO Strategy 📝
-
-You should definitely create a blog.
-
-Recommended articles:
-
-### High Priority
-
-1. **Best Tyres for Indian Roads in 2026**
-2. **How to Choose the Right Tyre Size for Your Car**
-3. **When Should You Replace Your Car Tyres?**
-4. **How to Check Tyre Manufacturing Date**
-5. **Wheel Alignment vs Wheel Balancing**
-6. **Are Used Tyres Safe?**
-7. **How Long Do Car Tyres Last?**
-8. **Best Truck Tyres for Heavy Loads**
-9. **What Does Tyre Size 195/65 R15 Mean?**
-10. **Signs Your Car Needs Wheel Alignment**
-
----
-
-## Local Blog Content
-
-Create local articles:
-
-```text
-Where to Buy Tyres in Vapi?
-
-Best Tyre Shop Near Vapi GIDC
-
-Where to Get Wheel Alignment in Vapi?
-
-Emergency Tyre Repair Services in Vapi
-```
-
-But make sure every article provides **real value**, not just keyword repetition.
-
----
-
-# 14. FAQ SEO ⭐
-
-Your FAQ coverage is already strong. ([Sahara Tyre][1])
-
-However, I recommend grouping FAQs by page.
-
-### Homepage FAQ
-
-Only include:
-
-* Opening hours
-* Location
-* Tyre brands
-* Emergency assistance
-* Appointment required
-
-### Wheel Alignment Page
-
-Include:
-
-```text
-How much does wheel alignment cost?
-
-How long does wheel alignment take?
-
-How often should I get wheel alignment?
-
-Does wheel alignment improve tyre life?
-```
-
-### Used Tyres Page
-
-```text
-Are used tyres safe?
-
-How do you inspect used tyres?
-
-How much do used tyres cost?
-
-How much tread should a used tyre have?
-```
-
----
-
-# 15. Schema Markup Audit 🧩
-
-This is a major area to verify.
-
-Your website should implement:
-
-## Essential Schema
-
-### LocalBusiness / AutoRepair
-
-```text
-AutoRepair
-```
-
-or potentially:
-
-```text
-TireShop
-```
-
-depending on the most appropriate structured-data type for the business.
-
-Include:
-
-```json
-{
-  "name": "Sahara Tyre",
-  "address": {},
-  "telephone": "+91...",
-  "openingHours": [],
-  "geo": {},
-  "sameAs": []
+For example:
+
+```css
+.icon-button {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ```
 
----
+## Check these components specifically
 
-## Recommended Schema
+Based on your website design, check:
 
-### 1. Local Business Schema
+### Navbar
 
-Critical.
-
-### 2. FAQ Schema
-
-For service FAQs.
-
-### 3. Service Schema
-
-For:
-
-* Wheel alignment
-* Tyre repair
-* Wheel balancing
-
-### 4. Product Schema
-
-For actual tyre inventory.
-
-### 5. Breadcrumb Schema
-
-For:
-
-```text
-Home
-→ Services
-→ Wheel Alignment
+```jsx
+<button className="mobile-menu-button">
 ```
 
----
+Make sure:
 
-# 16. Google Business Profile — EXTREMELY IMPORTANT 📍
-
-For a local business like Sahara Tyre, Google Business Profile may be more important than the website itself.
-
-You should ensure:
-
-### Business Name
-
-Exactly consistent:
-
-```text
-Sahara Tyre
+```css
+.mobile-menu-button {
+  min-width: 44px;
+  min-height: 44px;
+}
 ```
 
-Avoid unnecessary keyword stuffing like:
+### Floating buttons
 
-```text
-Sahara Tyre Best Tyre Shop Vapi Wheel Alignment
+Your floating Call and WhatsApp buttons:
+
+```css
+.floating-button {
+  width: 56px;
+  height: 56px;
+}
 ```
 
----
+These should already be okay visually, but check mobile versions.
 
-### Categories
-
-Potential categories:
-
-```text
-Tyre Shop
-Auto Repair Shop
-Wheel Alignment Service
-```
-
-Choose the most accurate primary category.
-
----
-
-### GBP Optimization Checklist
-
-* [ ] Correct business name
-* [ ] Exact address
-* [ ] Correct pin location
-* [ ] Phone number matches website
-* [ ] Website URL added
-* [ ] Correct business hours
-* [ ] Service categories added
-* [ ] High-quality real photos
-* [ ] Customer reviews
-* [ ] Review responses
-* [ ] Regular Google Posts
-
----
-
-# 17. Local Citations
-
-Create consistent business listings on reputable platforms.
-
-Ensure this information is identical everywhere:
-
-```text
-Sahara Tyre
-
-Shop No 07, Amidhara Complex,
-Char Rasta, Near CNG Pump,
-Phase 1, GIDC,
-Vapi, Gujarat – 396195
-
-Phone:
-+91-9377158216
-```
-
-Important principle:
-
-### Same Name
-
-### Same Address
-
-### Same Phone
-
-Everywhere.
-
----
-
-# 18. Backlink Strategy 🔗
-
-Currently, your biggest SEO challenge is likely going to be **authority**.
-
-Create backlinks from:
-
-### Local Sources
-
-* Local business directories
-* Vapi business websites
-* Gujarat business directories
-* Automotive blogs
-* Local news publications
-* Industry associations
-
-### Avoid ❌
-
-* Buying spam backlinks
-* Fiverr backlink packages
-* Thousands of directory links
-* PBN backlinks
-
----
-
-# 19. Homepage Content Length ⚠️
-
-Your homepage is currently very content-heavy.
-
-It contains:
-
-* Services
-* Products
-* Reviews
-* Locations
-* Landmarks
-* FAQs
-
-([Sahara Tyre][1])
-
-### Problem
-
-The homepage risks becoming:
-
-> "Everything about everything."
-
-### Recommended Homepage Structure
-
-```text
-H1
-↓
-Primary CTA
-↓
-Main Services
-↓
-Tyre Categories
-↓
-Why Choose Sahara Tyre
-↓
-Brands
-↓
-Real Reviews
-↓
-Service Areas
-↓
-FAQ
-↓
-Contact
-```
-
-Keep it focused.
-
-Move detailed information to dedicated pages.
-
----
-
-# 20. Potential Keyword Stuffing ⚠️
-
-Your homepage repeatedly uses:
-
-* Vapi
-* Vapi GIDC
-* tyre
-* workshop
-* automotive
-
-This isn't necessarily bad, but some location/service combinations feel artificially expanded.
-
-### Recommendation
-
-Write primarily for:
-
-> **Customers first → Google second**
+### Social media icons
 
 Instead of:
 
-```text
-Tyre shop in Vapi GIDC providing tyre services in Vapi...
+```css
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
 ```
 
 Use:
 
-```text
-Need new tyres, wheel alignment, or a quick puncture repair? Visit Sahara Tyre at Vapi GIDC.
+```css
+.social-button {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 ```
 
-More natural. Better conversion-focused content.
+The SVG itself can remain small:
 
----
-
-# 21. Domain Issue 🌐
-
-You're currently using:
-
-```text
-sahara-tyre.vercel.app
+```css
+.social-button svg {
+  width: 20px;
+  height: 20px;
+}
 ```
 
-I strongly recommend buying a custom domain.
+This is the correct approach.
 
-Examples:
+---
 
-```text
-saharatyre.in
-saharatyres.in
-saharatyrevapi.com
+# 4. Heading order is incorrect
+
+This is important.
+
+Your page should follow a logical hierarchy.
+
+## ❌ Bad example
+
+```html
+<h1>Tyre Shop & Auto Service</h1>
+
+<h3>Our Services</h3>
+
+<h2>Car Tyres</h2>
 ```
 
-**Before purchasing, check trademark and domain availability.**
+This skips heading levels.
 
-### Why?
+## ✅ Correct structure
 
-A custom domain improves:
+```html
+<h1>Tyre Shop & Auto Service Center in Vapi GIDC</h1>
 
-* Brand trust
-* Local business credibility
-* Marketing
-* Backlink value
-* Long-term SEO strategy
+<h2>Our Services</h2>
 
----
+<h3>Tyre Services</h3>
+<h3>Wheel Alignment</h3>
 
-# 22. Technical SEO — What I Could Verify vs What Still Needs Testing
+<h2>Tyres by Vehicle</h2>
 
-From the publicly crawled page, the content is indexable and readable by search crawlers, which is a positive sign. ([Sahara Tyre][1])
+<h3>Car Tyres</h3>
+<h3>Bike Tyres</h3>
 
-However, I could not fully verify from the crawl alone:
+<h2>Popular Tyre Brands</h2>
 
-* Core Web Vitals
-* JavaScript performance
-* Mobile performance
-* Canonical tags
-* sitemap.xml
-* robots.txt
-* Redirect behavior
-* Structured-data validity
-* Google Search Console coverage
-* Indexing errors
-
-### Recommended tools
-
-Use:
-
-* Google Search Console
-* Google PageSpeed Insights
-* Rich Results Test
-* Bing Webmaster Tools
-
-These will reveal the actual technical issues and indexing performance.
-
----
-
-# 🚨 Priority Fix List
-
-## 🔴 HIGH PRIORITY — Do First
-
-### 1.
-
-Move to a custom domain.
-
-### 2.
-
-Create dedicated pages:
-
-```text
-Tyre Shop Vapi
-Wheel Alignment Vapi
-Puncture Repair Vapi
-Car Tyres Vapi
-Truck Tyres Vapi
-Used Tyres Vapi
+<h2>Contact Sahara Tyre</h2>
 ```
 
-### 3.
-
-Remove or reduce unnecessary landmark/location stuffing.
-
-### 4.
-
-Verify all testimonials are real.
-
-### 5.
-
-Verify claims such as:
-
-* 4.8 Google rating
-* 18+ years
-* 24/7 emergency support
-* response times
-
-The homepage currently presents some potentially inconsistent messaging—for example, it mentions "24/7 Emergency Support" while also listing specific operating hours. ([Sahara Tyre][1])
-
----
-
-## 🟠 MEDIUM PRIORITY
-
-### 6.
-
-Build brand pages.
-
-### 7.
-
-Build tyre size pages.
-
-### 8.
-
-Improve internal linking.
-
-### 9.
-
-Add structured data.
-
-### 10.
-
-Create useful blog content.
-
----
-
-## 🟢 LONG-TERM
-
-### 11.
-
-Build backlinks.
-
-### 12.
-
-Grow Google reviews.
-
-### 13.
-
-Add real workshop images.
-
-### 14.
-
-Create before/after service content.
-
-### 15.
-
-Publish Google Business Profile updates.
-
----
-
-# Recommended 90-Day SEO Plan
-
-## Month 1 — Foundation
-
-* Custom domain
-* Google Search Console
-* Google Business Profile optimization
-* Technical SEO audit
-* Fix metadata
-* Schema implementation
-* Create 5 core service pages
-
-## Month 2 — Content
-
-Create:
+### Recommended hierarchy for Sahara Tyre
 
 ```text
-10 service pages
-10 tyre size pages
-5 brand pages
-5 blog articles
+H1
+└── Tyre Shop & Auto Service Center in Vapi GIDC
+
+    H2
+    └── Tyre Services
+
+        H3
+        ├── Wheel Alignment
+        ├── Tyre Balancing
+        └── Puncture Repair
+
+    H2
+    └── Shop Tyres by Vehicle
+
+        H3
+        ├── Car Tyres
+        ├── Bike Tyres
+        ├── Truck Tyres
+        └── Commercial Vehicle Tyres
+
+    H2
+    └── Tyre Brands
+
+    H2
+    └── Why Choose Sahara Tyre
+
+    H2
+    └── Frequently Asked Questions
+
+    H2
+    └── Contact Sahara Tyre
 ```
-
-## Month 3 — Authority
-
-* Local citations
-* Google reviews
-* Local backlinks
-* Blog content
-* Google Business Profile posts
-* Improve pages based on Search Console data
 
 ---
 
-# Final SEO Scorecard
+# Recommended reusable component for icon buttons
 
-| SEO Category      |                Score |
-| ----------------- | -------------------: |
-| On-Page SEO       |                 8/10 |
-| Keyword Strategy  |                 6/10 |
-| Local SEO         |                 8/10 |
-| Content Quality   |                 7/10 |
-| Content Structure |                 6/10 |
-| Internal Linking  |                 7/10 |
-| Conversion SEO    |                 8/10 |
-| Trust Signals     |                 6/10 |
-| Technical SEO     | Needs deeper testing |
-| **Overall**       |             **7/10** |
+Since you're using React/Next.js, I recommend creating a reusable component.
 
-## My biggest recommendation
+```tsx
+interface IconButtonProps {
+  label: string;
+  children: React.ReactNode;
+  onClick?: () => void;
+}
 
-**Don't add more keywords to the homepage.**
+export function IconButton({
+  label,
+  children,
+  onClick,
+}: IconButtonProps) {
+  return (
+    <button
+      onClick={onClick}
+      aria-label={label}
+      className="min-h-[44px] min-w-[44px] flex items-center justify-center"
+    >
+      {children}
+    </button>
+  );
+}
+```
 
-Instead, build a proper SEO architecture where each important search intent gets its own page.
+Usage:
 
-For Sahara Tyre, the highest-value strategy would be:
+```tsx
+<IconButton label="Call Sahara Tyre">
+  <Phone aria-hidden="true" />
+</IconButton>
+```
 
-> **Service Pages + Tyre Size Pages + Brand Pages + Strong Google Business Profile**
+---
 
-That approach can give you much better long-term local organic visibility than simply adding more content to the homepage.
+# Quick fix checklist
 
-[1]: https://sahara-tyre.vercel.app/ "Sahara Tyre – Best Tyre Shop & Auto Service in Vapi GIDC"
+## 🔴 Priority 1 — Fix immediately
+
+* [ ] Add `aria-label` to every icon-only button.
+* [ ] Add `aria-label` to icon-only links.
+* [ ] Add `aria-hidden="true"` to decorative SVG icons.
+* [ ] Fix heading hierarchy (`h1 → h2 → h3`).
+* [ ] Ensure clickable elements are at least `44 × 44px`.
+
+## 🟠 Priority 2
+
+* [ ] Check SVG icon colors for contrast.
+* [ ] Increase contrast for low-contrast icons.
+* [ ] Check mobile navigation buttons.
+* [ ] Check footer social icons.
+* [ ] Check floating action buttons.
+
+---
+
+# Tailwind CSS quick fixes
+
+If your Sahara Tyre website uses Tailwind, you can apply this pattern:
+
+### Icon Button
+
+```jsx
+<button
+  aria-label="Open menu"
+  className="min-w-[44px] min-h-[44px] flex items-center justify-center"
+>
+  <Menu aria-hidden="true" />
+</button>
+```
+
+### Icon Link
+
+```jsx
+<a
+  href="/contact"
+  aria-label="Contact Sahara Tyre"
+  className="min-w-[44px] min-h-[44px] flex items-center justify-center"
+>
+  <Phone aria-hidden="true" />
+</a>
+```
+
+---
+
+## My recommendation for your website
+
+The fastest way to get from **84 → potentially 95–100 Accessibility** is to inspect the actual failing elements in Lighthouse.
+
+In the Lighthouse report, click each failing **`svg`** element—it should reveal the exact DOM element or component causing the issue.
+
+If you send me either:
+
+1. **Your GitHub repository link**, or
+2. The relevant Navbar, Footer, Floating Buttons, and Heading section code,
+
+I can identify **every failing element and give you exact code changes component by component**.
+
+
+
+Yes—but the analysis you found is **too generic and partly speculative**.
+
+Your actual Lighthouse report gives us **four specific problems**. We should fix those instead of guessing about missing `alt` text, keyboard navigation, etc.
+
+## Your actual Accessibility issues
+
+| Lighthouse Issue                                  | Likely Impact | Priority     |
+| ------------------------------------------------- | ------------: | ------------ |
+| **Select elements do not have associated labels** |          High | 🔴 Fix first |
+| **SVG contrast is insufficient**                  |        Medium | 🟠           |
+| **Touch targets are too small/close together**    |        Medium | 🟠           |
+| **Heading order is incorrect**                    |        Medium | 🟠           |
+
+---
+
+# 1. Most important: Select elements do not have labels
+
+The Lighthouse text says:
+
+> **Select elements do not have associated label elements**
+
+This means you likely have something similar to:
+
+```jsx
+<select>
+  <option>Select Tyre Size</option>
+</select>
+```
+
+## ❌ Don't rely only on placeholder/default option
+
+```jsx
+<select>
+  <option>Select Vehicle Type</option>
+</select>
+```
+
+## ✅ Correct solution
+
+```jsx
+<label htmlFor="vehicle-type">
+  Vehicle Type
+</label>
+
+<select id="vehicle-type" name="vehicleType">
+  <option value="">Select Vehicle Type</option>
+  <option value="car">Car</option>
+  <option value="bike">Bike</option>
+  <option value="truck">Truck</option>
+</select>
+```
+
+### If you don't want a visible label
+
+Use an accessible label:
+
+```jsx
+<select
+  aria-label="Select vehicle type"
+  name="vehicleType"
+>
+  <option value="">Select Vehicle Type</option>
+  <option value="car">Car</option>
+</select>
+```
+
+### Best approach
+
+```jsx
+<label htmlFor="tyre-size" className="sr-only">
+  Select tyre size
+</label>
+
+<select id="tyre-size" name="tyreSize">
+```
+
+This is especially useful if your design doesn't have visible labels.
+
+---
+
+# ⚠️ Why does Lighthouse show `svg`?
+
+The copied report showing:
+
+```text
+Failing Elements
+svg
+```
+
+does **not necessarily mean the SVG itself is a `<select>` element**.
+
+This often happens because copying the Lighthouse report into text loses the actual DOM selector/details.
+
+You need to click the failing element inside Lighthouse and inspect the actual HTML.
+
+---
+
+# 2. SVG contrast issue
+
+You have **8 SVG elements failing contrast**.
+
+Your site uses a dark background with:
+
+* Orange icons
+* Gray icons
+* Green icons
+* Muted navigation elements
+
+Some icon colors may not have enough contrast.
+
+## Example problem
+
+```jsx
+<Phone className="text-gray-500" />
+```
+
+Against a dark background:
+
+```css
+background: #0f172a;
+```
+
+The gray icon may fail contrast requirements.
+
+## Better
+
+```jsx
+<Phone className="text-gray-200" />
+```
+
+Or:
+
+```css
+.icon {
+  color: #ffffff;
+}
+```
+
+### Important
+
+If an SVG is purely decorative:
+
+```jsx
+<Phone aria-hidden="true" />
+```
+
+Then contrast may not be relevant from an accessibility perspective because it is decorative.
+
+---
+
+# 3. Fix icon buttons correctly
+
+Your website screenshot shows several icon-based controls, including floating buttons.
+
+## ❌ Bad
+
+```jsx
+<button>
+  <Phone />
+</button>
+```
+
+## ✅ Correct
+
+```jsx
+<button
+  aria-label="Call Sahara Tyre"
+  className="min-w-[44px] min-h-[44px]"
+>
+  <Phone aria-hidden="true" />
+</button>
+```
+
+For WhatsApp:
+
+```jsx
+<a
+  href="https://wa.me/919377158216"
+  aria-label="Chat with Sahara Tyre on WhatsApp"
+  className="min-w-[44px] min-h-[44px]"
+>
+  <MessageCircle aria-hidden="true" />
+</a>
+```
+
+---
+
+# 4. Touch targets: you have approximately 22 failing elements
+
+This is probably related to:
+
+* Social media icons
+* Navigation icons
+* Carousel buttons
+* Small close buttons
+* Mobile menu buttons
+* Small filter controls
+* Floating action controls
+
+## Lighthouse recommendation
+
+Interactive elements should generally have a target size of approximately:
+
+```css
+44px × 44px
+```
+
+## ❌ Bad
+
+```jsx
+<button className="p-1">
+  <Phone size={18} />
+</button>
+```
+
+## ✅ Better
+
+```jsx
+<button
+  aria-label="Call Sahara Tyre"
+  className="
+    min-w-[44px]
+    min-h-[44px]
+    flex
+    items-center
+    justify-center
+  "
+>
+  <Phone size={18} aria-hidden="true" />
+</button>
+```
+
+The icon can remain `18px`.
+
+The **clickable area** should be `44px`.
+
+---
+
+# 5. Heading hierarchy issue
+
+Lighthouse found **2 heading structure problems**.
+
+You should inspect all your headings.
+
+## Likely problem
+
+Something like:
+
+```html
+<h1>Tyre Shop & Auto Service</h1>
+
+<h3>Our Services</h3>
+
+<h2>Car Tyres</h2>
+```
+
+## Correct structure
+
+```html
+<h1>Tyre Shop & Auto Service Center in Vapi GIDC</h1>
+
+<h2>Tyre Services</h2>
+
+<h3>Wheel Alignment</h3>
+<h3>Tyre Balancing</h3>
+<h3>Puncture Repair</h3>
+
+<h2>Shop Tyres by Vehicle</h2>
+
+<h3>Car Tyres</h3>
+<h3>Bike Tyres</h3>
+```
+
+### Rule
+
+Don't skip levels:
+
+```text
+H1 → H2 → H3 ✅
+
+H1 → H3 ❌
+
+H2 → H4 ❌
+```
+
+---
+
+# What I disagree with in the analysis you found
+
+The analysis says:
+
+> Missing alt text
+
+⚠️ **Your Lighthouse report does not show this as a failing audit.**
+
+It says:
+
+> Keyboard focus issues
+
+⚠️ Again, this is **not specifically listed as a failure** in the report you provided.
+
+It says:
+
+> Weak keyboard navigation
+
+⚠️ This may need manual testing, but Lighthouse hasn't identified it as your main automated issue.
+
+### Therefore, don't randomly fix everything.
+
+Focus on the actual failures first.
+
+---
+
+# My recommended action plan
+
+### 🔴 Step 1 — Fix all `<select>` elements
+
+Search your project for:
+
+```text
+<select
+```
+
+Every select should have either:
+
+```jsx
+<label htmlFor="...">
+```
+
+or:
+
+```jsx
+aria-label=""
+```
+
+---
+
+### 🟠 Step 2 — Fix all icon-only buttons
+
+Search for:
+
+```text
+<button>
+```
+
+Check buttons containing only:
+
+* `<Phone />`
+* `<Menu />`
+* `<X />`
+* `<ChevronDown />`
+* `<ArrowLeft />`
+* `<ArrowRight />`
+* Any SVG icon
+
+Add:
+
+```jsx
+aria-label="Description of action"
+```
+
+---
+
+### 🟠 Step 3 — Fix touch targets
+
+Add this to all icon buttons:
+
+```css
+min-width: 44px;
+min-height: 44px;
+```
+
+---
+
+### 🟠 Step 4 — Fix heading order
+
+Search your project for:
+
+```text
+<h1
+<h2
+<h3
+<h4
+```
+
+Then verify the hierarchy.
+
+---
+
+### 🟡 Step 5 — Fix SVG contrast
+
+Inspect the **8 exact SVG elements** Lighthouse identifies and adjust their color.
+
+---
+
+## To give you exact fixes
+
+The report text you pasted unfortunately doesn't include the **actual failing DOM elements/components**.
+
+The best next step is to send either:
+
+1. A screenshot after clicking/opening the **failing elements** in Lighthouse, or
+2. Your relevant **React/Next.js source code**, especially:
+
+   * Navbar
+   * Forms / tyre search filters
+   * Footer
+   * Floating buttons
+   * Heading sections
+
+Then I can give you a **file-by-file fix**, such as:
+
+```text
+components/Navbar.tsx
+→ Fix 4 accessibility issues
+
+components/TyreSearch.tsx
+→ Add labels to 3 selects
+
+components/FloatingActions.tsx
+→ Fix button names + touch targets
+
+app/page.tsx
+→ Fix heading hierarchy
+```
+
+That would be much more accurate than the generic analysis you found.

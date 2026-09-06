@@ -70,70 +70,76 @@
         </image:image>
     </url>
 
-    <!-- Dedicated Tyre Category Hubs -->
+    <!-- Vehicle Category Master Hub & Dedicated Vehicle Pages -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/truck-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.88</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/vehicles/truck-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/bus-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/bus-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/car-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/car-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/bike-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/bike-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/scooter-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/scooter-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/commercial-vehicle-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/commercial-vehicle-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/crane-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/crane-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/tractor-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/tractor-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/agricultural-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/agricultural-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/otr-earthmover-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://sahara-tyre.vercel.app/industrial-tyres.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/vehicles/industrial-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
@@ -190,6 +196,246 @@
         <lastmod>2026-08-30</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
+    </url>
+
+    <!-- Services Subdirectory Hub & Landing Pages -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/wheel-alignment-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/puncture-repair-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/wheel-balancing-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/used-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/new-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/remolded-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/truck-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/car-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/fleet-tyre-service-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/services/roadside-tyre-assistance-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Brands Hub & Landing Pages -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/mrf-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/ceat-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/bridgestone-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/jk-tyres-vapi</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+
+    <!-- Locations Subdirectory Hub & Landing Pages -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-vapi-gidc</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-gunjan</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-chala</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-daman</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+
+    <!-- Blog Hub & Educational Articles -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/best-tyres-for-indian-roads</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-size</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/when-to-replace-car-tyres</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/wheel-alignment-vs-balancing</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/are-used-tyres-safe</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+
+    <!-- High-Volume Passenger & Two-Wheeler Tyre Sizes -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/195-65-r15</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/205-55-r16</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/185-65-r15</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/175-65-r14</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/215-60-r16</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/100-90-17</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/90-90-17</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+
+    <!-- Commercial & Heavy Duty Truck Tyre Sizes -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/truck-tyres/1000-20</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/truck-tyres/1100-20</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/truck-tyres/1200-20</loc>
+        <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
 
 </urlset>

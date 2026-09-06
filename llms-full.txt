@@ -89,13 +89,15 @@ The website is structured into modular semantic hubs and guides designed to sati
    - `otr-earthmover-tyres.htm` (JCB backhoe, wheel loaders & dumpers)
    - `industrial-tyres.htm` (Solid resilient & pneumatic forklifts)
 
-5. **Tyre Condition Hubs & Comparison Buying Guides**:
-   - `new-tyres.htm` (Brand-new OEM & aftermarket tyres with manufacturer warranty)
-   - `used-tyres.htm` (5-point safety tested pre-owned tyres with 3mm+ tread depth)
-   - `remould-tyres.htm` (Certified cold precure & hot mould retread commercial tyres)
-   - `new-vs-used-tyres.htm` (Comprehensive buying guide: New vs Second-Hand tyres)
-   - `new-vs-remould-tyres.htm` (Commercial fleet guide: New vs Retreaded tyres & CPKM analysis)
-   - `used-vs-remould-tyres.htm` (Budget comparison guide: Used vs Remoulded tyres)
+5. **Tyre Condition Hubs (`/condition/`) & Comparison Decision Guides (`/guides/`)**:
+   - `condition/index.htm` (Master Condition Hub: New, 5-point tested used & commercial remould)
+   - `condition/new-tyres.htm` (Brand-new OEM & aftermarket tyres with manufacturer warranty)
+   - `condition/used-tyres.htm` (5-point safety tested pre-owned tyres with 3mm+ tread depth)
+   - `condition/remould-tyres.htm` (Certified cold precure & hot mould retread commercial tyres)
+   - `guides/index.htm` (Master Decision & Comparison Buying Guides Hub)
+   - `guides/new-vs-used-tyres.htm` (Comprehensive buying guide: New vs Second-Hand tyres)
+   - `guides/new-vs-remould-tyres.htm` (Commercial fleet guide: New vs Retreaded tyres & CPKM analysis)
+   - `guides/used-vs-remould-tyres.htm` (Budget comparison guide: Used vs Remoulded tyres)
 
 6. **Contact & Location Navigation Guide (`https://sahara-tyre.vercel.app/location.htm`)**:
    - Turn-by-turn driving directions from major transit nodes: Vapi Railway Station, Gunjan, Chala, Chanod Gate, Salvav, Daman, and Silvassa. Contains interactive Google Maps embed and commercial truck parking information.

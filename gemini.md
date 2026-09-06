@@ -45,12 +45,14 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `agricultural-tyres.htm` | Agricultural Tyres (9.00-16 16PR Trailer, 18.4-34 Harvester & tiller implements) |
 | `otr-earthmover-tyres.htm` | OTR Earthmover Tyres (17.5-25, 23.5-25, 14.00-24 for loaders, graders & JCB) |
 | `industrial-tyres.htm` | Industrial Forklift Tyres (6.00-9, 7.00-12, 8.25-15 solid rubber & cleanroom non-marking) |
-| `new-tyres.htm` | Brand New Tyres Hub (MRF, CEAT, Apollo, Bridgestone, Michelin factory warranty) |
-| `used-tyres.htm` | Used / Second-Hand Tyres Hub (5-point safety inspection, 3mm+ tread depth) |
-| `remould-tyres.htm` | Remould / Retread Tyres Hub (Cold precure & hot mould commercial truck tyres, 50% savings) |
-| `new-vs-used-tyres.htm` | New vs Used Tyres Buying Guide (Price vs lifespan vs safety comparison matrix) |
-| `new-vs-remould-tyres.htm` | New vs Remould Tyres Fleet Guide (Cost-Per-Kilometer CPK & axle placement rules) |
-| `used-vs-remould-tyres.htm` | Used vs Remould Tyres Guide (Commercial budget decision analysis) |
+| `condition/index.htm` | Master Tyre Condition Hub (Overview & side-by-side comparison matrix) |
+| `condition/new-tyres.htm` | Brand New Tyres Hub (MRF, CEAT, Apollo, Bridgestone, Michelin factory warranty) |
+| `condition/used-tyres.htm` | Used / Second-Hand Tyres Hub (5-point safety inspection, 3mm+ tread depth) |
+| `condition/remould-tyres.htm` | Remould / Retread Tyres Hub (Cold precure & hot mould commercial truck tyres, 50% savings) |
+| `guides/index.htm` | Master Buying & Comparison Decision Guides Hub |
+| `guides/new-vs-used-tyres.htm` | New vs Used Tyres Buying Guide (Price vs lifespan vs safety comparison matrix) |
+| `guides/new-vs-remould-tyres.htm` | New vs Remould Tyres Fleet Guide (Cost-Per-Kilometer CPK & axle placement rules) |
+| `guides/used-vs-remould-tyres.htm` | Used vs Remould Tyres Guide (Commercial budget decision analysis) |
 | `location.htm` | Landmark Navigation (directions from Vapi Station, Daman, Silvassa, parking info) |
 | `about.htm` | Heritage & Trust (18+ years heritage, certified mechanics, satisfaction guarantees) |
 | `privacy.htm` | Privacy Policy (Data protection, Google Analytics & AdSense cookie disclosures) |

@@ -51,12 +51,14 @@ The website is organized into dedicated pages to avoid keyword cannibalization a
 12. **[agricultural-tyres.htm](https://sahara-tyre.vercel.app/agricultural-tyres.htm)** — Farm trailer trolley (`9.00-16 16PR`) and combine harvester tyres (`18.4-34`).
 13. **[otr-earthmover-tyres.htm](https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm)** — OTR loader, grader and JCB 3DX tyres (`17.5-25`, `23.5-25`, `14.00-24`).
 14. **[industrial-tyres.htm](https://sahara-tyre.vercel.app/industrial-tyres.htm)** — Solid rubber resilient and non-marking forklift tyres (`6.00-9`, `7.00-12`, `8.25-15`).
-15. **[new-tyres.htm](https://sahara-tyre.vercel.app/new-tyres.htm)** — Brand new factory-warranted tyre hub (MRF, CEAT, Apollo, Bridgestone, Michelin) with complete digital warranty registration.
-16. **[used-tyres.htm](https://sahara-tyre.vercel.app/used-tyres.htm)** — 5-point safety tested second-hand tyres with verified 3mm+ usable tread depth and workshop guarantees.
-17. **[remould-tyres.htm](https://sahara-tyre.vercel.app/remould-tyres.htm)** — Certified cold precure & hot mould retread commercial truck tyres delivering 50% fleet cost savings.
-18. **[new-vs-used-tyres.htm](https://sahara-tyre.vercel.app/new-vs-used-tyres.htm)** — In-depth buying guide comparing new vs used tyres on cost, lifespan, safety, and vehicle suitability.
-19. **[new-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/new-vs-remould-tyres.htm)** — Commercial fleet comparison guide analyzing Cost-Per-Kilometer (CPK) and steer vs drive axle placement.
-20. **[used-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/used-vs-remould-tyres.htm)** — Budget comparison guide evaluating remaining factory tread against fresh vulcanized precure retreads.
+15. **[condition/index.htm](https://sahara-tyre.vercel.app/condition)** — Master tyre condition hub comparing Brand New, 5-point tested used, and commercial remould tyres.
+16. **[condition/new-tyres.htm](https://sahara-tyre.vercel.app/condition/new-tyres)** — Brand new factory-warranted tyre hub (MRF, CEAT, Apollo, Bridgestone, Michelin) with complete digital warranty registration.
+17. **[condition/used-tyres.htm](https://sahara-tyre.vercel.app/condition/used-tyres)** — 5-point safety tested second-hand tyres with verified 3mm+ usable tread depth and workshop guarantees.
+18. **[condition/remould-tyres.htm](https://sahara-tyre.vercel.app/condition/remould-tyres)** — Certified cold precure & hot mould retread commercial truck tyres delivering 50% fleet cost savings.
+19. **[guides/index.htm](https://sahara-tyre.vercel.app/guides)** — Master buying and comparison decision guides hub.
+20. **[guides/new-vs-used-tyres.htm](https://sahara-tyre.vercel.app/guides/new-vs-used-tyres)** — In-depth buying guide comparing new vs used tyres on cost, lifespan, safety, and vehicle suitability.
+21. **[guides/new-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/guides/new-vs-remould-tyres)** — Commercial fleet comparison guide analyzing Cost-Per-Kilometer (CPK) and steer vs drive axle placement.
+22. **[guides/used-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/guides/used-vs-remould-tyres)** — Budget comparison guide evaluating remaining factory tread against fresh vulcanized precure retreads.
 21. **[location.htm](https://sahara-tyre.vercel.app/location.htm)** — Navigation hub: Turn-by-turn driving directions from Vapi Railway Station, Gunjan, Chala, Daman, and Silvassa.
 22. **[about.htm](https://sahara-tyre.vercel.app/about.htm)** — Heritage & Trust: 18+ years story, technician expertise, and certified guarantees.
 23. **[privacy.htm](https://sahara-tyre.vercel.app/privacy.htm)** — Privacy Policy: Customer data protection, Google Analytics & AdSense cookie disclosures.

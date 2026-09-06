@@ -39,12 +39,14 @@
 - [Agricultural Tyres Hub](https://sahara-tyre.vercel.app/agricultural-tyres.htm): Farm trailer trolley, combine harvester and implement tyre hub (9.00-16 16PR, 18.4-34).
 - [OTR & Earthmover Tyres Hub](https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm): Wheel loader, motor grader and JCB 3DX backhoe tyre hub (17.5-25, 23.5-25, 14.00-24).
 - [Industrial & Forklift Tyres Hub](https://sahara-tyre.vercel.app/industrial-tyres.htm): Solid rubber resilient, non-marking cleanroom and pneumatic forklift tyre hub (6.00-9, 7.00-12, 8.25-15, 28x9-15).
-- [Brand New Tyres Hub](https://sahara-tyre.vercel.app/new-tyres.htm): Authorized brand new tyres with factory manufacturer warranties from MRF, CEAT, Apollo, Bridgestone & Michelin.
-- [Used & Second-Hand Tyres Hub](https://sahara-tyre.vercel.app/used-tyres.htm): Quality-checked pre-owned tyres with 5-point safety inspection, 3mm+ tread depth, and budget-friendly pricing.
-- [Remould & Retreaded Tyres Hub](https://sahara-tyre.vercel.app/remould-tyres.htm): Certified cold precure and hot mould retread commercial tyres delivering up to 50% cost savings for transport fleets.
-- [New vs Used Tyres Guide](https://sahara-tyre.vercel.app/new-vs-used-tyres.htm): In-depth comparison of price, safety standards, tread wear, and application recommendations.
-- [New vs Remould Fleet Guide](https://sahara-tyre.vercel.app/new-vs-remould-tyres.htm): Commercial fleet cost-per-kilometer (CPK) calculation, casing durability, and steer vs drive axle placement guidelines.
-- [Used vs Remould Tyres Guide](https://sahara-tyre.vercel.app/used-vs-remould-tyres.htm): Commercial budget comparison between single-life pre-owned tyres and retreaded tyres with new tread rubber.
+- [Tyre Condition Master Hub](https://sahara-tyre.vercel.app/condition): Master hub comparing Brand New, 5-Point Tested Used, and Commercial Remould tyres.
+- [Brand New Tyres Hub](https://sahara-tyre.vercel.app/condition/new-tyres): Authorized brand new tyres with factory manufacturer warranties from MRF, CEAT, Apollo, Bridgestone & Michelin.
+- [Used & Second-Hand Tyres Hub](https://sahara-tyre.vercel.app/condition/used-tyres): Quality-checked pre-owned tyres with 5-point safety inspection, 3mm+ tread depth, and budget-friendly pricing.
+- [Remould & Retreaded Tyres Hub](https://sahara-tyre.vercel.app/condition/remould-tyres): Certified cold precure and hot mould retread commercial tyres delivering up to 50% cost savings for transport fleets.
+- [Buying & Comparison Guides Hub](https://sahara-tyre.vercel.app/guides): Master comparison guides hub assisting vehicle owners and fleet managers in making data-backed tyre purchase decisions.
+- [New vs Used Tyres Guide](https://sahara-tyre.vercel.app/guides/new-vs-used-tyres): In-depth comparison of price, safety standards, tread wear, and application recommendations.
+- [New vs Remould Fleet Guide](https://sahara-tyre.vercel.app/guides/new-vs-remould-tyres): Commercial fleet cost-per-kilometer (CPK) calculation, casing durability, and steer vs drive axle placement guidelines.
+- [Used vs Remould Tyres Guide](https://sahara-tyre.vercel.app/guides/used-vs-remould-tyres): Commercial budget comparison between single-life pre-owned tyres and retreaded tyres with new tread rubber.
 - [Location & Navigation Guide](https://sahara-tyre.vercel.app/location.htm): Landmark-based turn-by-turn driving directions from Vapi Railway Station, Vapi City Center, Gunjan, Chala, Daman, and Silvassa, with truck parking details.
 - [About & Heritage](https://sahara-tyre.vercel.app/about.htm): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 - [Privacy Policy](https://sahara-tyre.vercel.app/privacy.htm): Comprehensive privacy policy, customer data handling, Google Analytics & AdSense cookie disclosures.

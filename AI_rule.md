@@ -50,12 +50,14 @@ The repository is structured as a multi-page static site with dedicated topical 
 - `agricultural-tyres.htm` – Farm trailer trolley (9.00-16 16PR) & combine harvester tyres (18.4-34).
 - `otr-earthmover-tyres.htm` – OTR wheel loader, grader & JCB 3DX tyres (17.5-25, 23.5-25, 14.00-24).
 - `industrial-tyres.htm` – Solid rubber resilient & cleanroom forklift tyres (6.00-9, 7.00-12, 8.25-15).
-- `new-tyres.htm` – Brand new factory warranty tyres (MRF, CEAT, Apollo, Bridgestone, Michelin).
-- `used-tyres.htm` – 5-point safety tested second-hand tyres (3mm+ usable tread).
-- `remould-tyres.htm` – Certified cold precure & hot mould retread commercial tyres (50% cost savings).
-- `new-vs-used-tyres.htm` – In-depth buying guide comparing new vs used tyres.
-- `new-vs-remould-tyres.htm` – Commercial fleet guide analyzing Cost-Per-Kilometer (CPK).
-- `used-vs-remould-tyres.htm` – Budget comparison between used and retreaded tyres.
+- `condition/index.htm` – Master Tyre Condition Hub (New, 5-point tested used, commercial remould).
+- `condition/new-tyres.htm` – Brand new factory warranty tyres (MRF, CEAT, Apollo, Bridgestone, Michelin).
+- `condition/used-tyres.htm` – 5-point safety tested second-hand tyres (3mm+ usable tread).
+- `condition/remould-tyres.htm` – Certified cold precure & hot mould retread commercial tyres (50% cost savings).
+- `guides/index.htm` – Master Decision & Comparison Buying Guides Hub.
+- `guides/new-vs-used-tyres.htm` – In-depth buying guide comparing new vs used tyres.
+- `guides/new-vs-remould-tyres.htm` – Commercial fleet guide analyzing Cost-Per-Kilometer (CPK).
+- `guides/used-vs-remould-tyres.htm` – Budget comparison between used and retreaded tyres.
 - `location.htm` – Route directions, landmark navigation, parking & transit info.
 - `about.htm` – 18+ years heritage, technician expertise, guarantees.
 - `privacy.htm` – Privacy policy, analytics & AdSense compliance disclosures.

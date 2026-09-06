@@ -1,4 +1,23 @@
 {
+  "redirects": [
+    { "source": "/services.htm", "destination": "/services", "permanent": true },
+    { "source": "/truck-tyres.htm", "destination": "/vehicles/truck-tyres", "permanent": true },
+    { "source": "/bus-tyres.htm", "destination": "/vehicles/bus-tyres", "permanent": true },
+    { "source": "/car-tyres.htm", "destination": "/vehicles/car-tyres", "permanent": true },
+    { "source": "/bike-tyres.htm", "destination": "/vehicles/bike-tyres", "permanent": true },
+    { "source": "/scooter-tyres.htm", "destination": "/vehicles/scooter-tyres", "permanent": true },
+    { "source": "/commercial-vehicle-tyres.htm", "destination": "/vehicles/commercial-vehicle-tyres", "permanent": true },
+    { "source": "/crane-tyres.htm", "destination": "/vehicles/crane-tyres", "permanent": true },
+    { "source": "/tractor-tyres.htm", "destination": "/vehicles/tractor-tyres", "permanent": true },
+    { "source": "/agricultural-tyres.htm", "destination": "/vehicles/agricultural-tyres", "permanent": true },
+    { "source": "/otr-earthmover-tyres.htm", "destination": "/vehicles/otr-earthmover-tyres", "permanent": true },
+    { "source": "/products.htm", "destination": "/products", "permanent": true },
+    { "source": "/location.htm", "destination": "/location", "permanent": true },
+    { "source": "/about.htm", "destination": "/about", "permanent": true },
+    { "source": "/privacy.htm", "destination": "/privacy", "permanent": true },
+    { "source": "/terms.htm", "destination": "/terms", "permanent": true },
+    { "source": "/industrial-tyres.htm", "destination": "/vehicles/industrial-tyres", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/index.htm" },
     { "source": "/services", "destination": "/services/index.htm" },

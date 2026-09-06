@@ -35,34 +35,51 @@ This website is linked and used within the **Google Business Profile** account f
 
 ## Multi-Page Information Architecture
 
-The website is organized into dedicated pages to avoid keyword cannibalization and maximize topical authority:
+The website is organized into dedicated pages and modular topical hubs to avoid keyword cannibalization and maximize topical authority:
 
-1. **[index.htm](https://sahara-tyre.vercel.app/)** — Master hub with broad local automotive discovery, 15 master FAQs, review highlights, and primary CTAs.
-2. **[services.htm](https://sahara-tyre.vercel.app/services.htm)** — Technical automotive services: 3D laser wheel alignment, computerized balancing, tubeless puncture repair, brake system checks, suspension diagnostics, and GIDC fleet maintenance plans.
-3. **[products.htm](https://sahara-tyre.vercel.app/products.htm)** — Product catalog & category gateway with links to all 11 specialized tyre categories.
-4. **[truck-tyres.htm](https://sahara-tyre.vercel.app/truck-tyres.htm)** — Truck tyres (`10.00-20`, `295/80 R22.5`, `11.00 R20`, `12.00 R24`) for Tata, Ashok Leyland & BharatBenz.
-5. **[bus-tyres.htm](https://sahara-tyre.vercel.app/bus-tyres.htm)** — Bus tyres (`295/80 R22.5`, `10.00 R20`, `275/70 R22.5`) for luxury coaches & staff buses.
-6. **[car-tyres.htm](https://sahara-tyre.vercel.app/car-tyres.htm)** — Passenger car & SUV tyres (`155/80 R13` to `265/65 R17`) with 3D laser alignment.
-7. **[bike-tyres.htm](https://sahara-tyre.vercel.app/bike-tyres.htm)** — Motorcycle tyres (`2.75-18`, `90/90-17`, `120/80-18`, `140/70-17`) with 15-min instant fitting.
-8. **[scooter-tyres.htm](https://sahara-tyre.vercel.app/scooter-tyres.htm)** — Scooter & EV tyres (`90/100-10`, `90/90-12`, `100/80-12`) for Activa, Access & Ola.
-9. **[commercial-vehicle-tyres.htm](https://sahara-tyre.vercel.app/commercial-vehicle-tyres.htm)** — LCV/SCV pickup tyres (`145 R12 LT`, `7.00-15`, `7.50-16`) for Tata Ace & Bolero.
-10. **[crane-tyres.htm](https://sahara-tyre.vercel.app/crane-tyres.htm)** — Industrial Hydra crane & heavy lifter tyres (`11.00-20 Crane`, `14.00-24 24PR`).
-11. **[tractor-tyres.htm](https://sahara-tyre.vercel.app/tractor-tyres.htm)** — Farm tractor front and rear haulage tyres (`6.00-16`, `12.4-28`, `13.6-28`, `14.9-28`).
-12. **[agricultural-tyres.htm](https://sahara-tyre.vercel.app/agricultural-tyres.htm)** — Farm trailer trolley (`9.00-16 16PR`) and combine harvester tyres (`18.4-34`).
-13. **[otr-earthmover-tyres.htm](https://sahara-tyre.vercel.app/otr-earthmover-tyres.htm)** — OTR loader, grader and JCB 3DX tyres (`17.5-25`, `23.5-25`, `14.00-24`).
-14. **[industrial-tyres.htm](https://sahara-tyre.vercel.app/industrial-tyres.htm)** — Solid rubber resilient and non-marking forklift tyres (`6.00-9`, `7.00-12`, `8.25-15`).
-15. **[condition/index.htm](https://sahara-tyre.vercel.app/condition)** — Master tyre condition hub comparing Brand New, 5-point tested used, and commercial remould tyres.
-16. **[condition/new-tyres.htm](https://sahara-tyre.vercel.app/condition/new-tyres)** — Brand new factory-warranted tyre hub (MRF, CEAT, Apollo, Bridgestone, Michelin) with complete digital warranty registration.
-17. **[condition/used-tyres.htm](https://sahara-tyre.vercel.app/condition/used-tyres)** — 5-point safety tested second-hand tyres with verified 3mm+ usable tread depth and workshop guarantees.
-18. **[condition/remould-tyres.htm](https://sahara-tyre.vercel.app/condition/remould-tyres)** — Certified cold precure & hot mould retread commercial truck tyres delivering 50% fleet cost savings.
-19. **[guides/index.htm](https://sahara-tyre.vercel.app/guides)** — Master buying and comparison decision guides hub.
-20. **[guides/new-vs-used-tyres.htm](https://sahara-tyre.vercel.app/guides/new-vs-used-tyres)** — In-depth buying guide comparing new vs used tyres on cost, lifespan, safety, and vehicle suitability.
-21. **[guides/new-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/guides/new-vs-remould-tyres)** — Commercial fleet comparison guide analyzing Cost-Per-Kilometer (CPK) and steer vs drive axle placement.
-22. **[guides/used-vs-remould-tyres.htm](https://sahara-tyre.vercel.app/guides/used-vs-remould-tyres)** — Budget comparison guide evaluating remaining factory tread against fresh vulcanized precure retreads.
-21. **[location.htm](https://sahara-tyre.vercel.app/location.htm)** — Navigation hub: Turn-by-turn driving directions from Vapi Railway Station, Gunjan, Chala, Daman, and Silvassa.
-22. **[about.htm](https://sahara-tyre.vercel.app/about.htm)** — Heritage & Trust: 18+ years story, technician expertise, and certified guarantees.
-23. **[privacy.htm](https://sahara-tyre.vercel.app/privacy.htm)** — Privacy Policy: Customer data protection, Google Analytics & AdSense cookie disclosures.
-24. **[terms.htm](https://sahara-tyre.vercel.app/terms.htm)** — Terms & Conditions: In-person workshop service agreements, warranties, and walk-in policies.
+1. **[index.htm](https://sahara-tyre.vercel.app/)** — Master hub with broad local automotive discovery, master FAQs, review highlights, and primary CTAs.
+2. **[/services](https://sahara-tyre.vercel.app/services)** — Auto services directory hub and 10 dedicated service landing pages:
+   - `/services/wheel-alignment-vapi` (3D laser wheel alignment)
+   - `/services/wheel-balancing-vapi` (Dynamic computerized balancing)
+   - `/services/puncture-repair-vapi` (15-min tubeless vulcanized puncture repair)
+   - `/services/new-tyres-vapi` (New tyre installation with warranty registration)
+   - `/services/used-tyres-vapi` (5-point safety tested pre-owned tyre fitting)
+   - `/services/remolded-tyres-vapi` (Certified cold precure commercial truck retreads)
+   - `/services/truck-tyres-vapi` (Heavy commercial tyre fitting & fleet care)
+   - `/services/car-tyres-vapi` (Passenger car & SUV wheel maintenance)
+   - `/services/fleet-tyre-service-vapi` (GIDC corporate fleet maintenance contracts)
+   - `/services/roadside-tyre-assistance-vapi` (On-site puncture assistance within 20km)
+3. **[/products](https://sahara-tyre.vercel.app/products)** — Product catalog & category gateway connecting brand-new, quality used, and remoulded commercial tyres.
+4. **[/vehicles](https://sahara-tyre.vercel.app/vehicles)** — 11 dedicated vehicle category hubs:
+   - `/vehicles/truck-tyres` (Multi-axle haulage & tipper trucks: `10.00-20`, `295/80 R22.5`, `11.00 R20`)
+   - `/vehicles/bus-tyres` (Intercity luxury coaches & staff buses)
+   - `/vehicles/car-tyres` (Passenger cars & SUVs: `155/80 R13` to `265/65 R17`)
+   - `/vehicles/bike-tyres` (Motorcycles: `2.75-18`, `90/90-17`, `120/80-18`)
+   - `/vehicles/scooter-tyres` (Scooters & EVs: `90/100-10`, `90/90-12`)
+   - `/vehicles/commercial-vehicle-tyres` (LCV pickup tyres: `145 R12 LT`, `7.00-15`)
+   - `/vehicles/crane-tyres` (Hydra pick-and-carry & heavy crane tyres)
+   - `/vehicles/tractor-tyres` (Farm tractor steering & rear haulage tyres)
+   - `/vehicles/agricultural-tyres` (Trailer trolley & combine harvester tyres)
+   - `/vehicles/otr-earthmover-tyres` (OTR loader, grader & JCB 3DX tyres)
+   - `/vehicles/industrial-tyres` (Solid resilient & cleanroom forklift tyres)
+5. **[/condition](https://sahara-tyre.vercel.app/condition)** — Tyre condition comparison hub and dedicated category hubs:
+   - `/condition/new-tyres` (Brand-new tyres: MRF, CEAT, Apollo, Bridgestone, Michelin)
+   - `/condition/used-tyres` (5-point safety tested second-hand tyres with 3mm+ tread depth)
+   - `/condition/remould-tyres` (Certified cold precure & hot mould retread commercial tyres)
+6. **[/guides](https://sahara-tyre.vercel.app/guides)** — Buyer decision and comparison guides:
+   - `/guides/new-vs-used-tyres` (Head-to-head price, lifespan & safety analysis)
+   - `/guides/new-vs-remould-tyres` (Commercial fleet Cost-Per-Kilometer CPKM analysis)
+   - `/guides/used-vs-remould-tyres` (Budget comparison: remaining tread vs precure retreads)
+7. **[/brands](https://sahara-tyre.vercel.app/brands)** — Authorized tyre brand hubs:
+   - `/brands/mrf-tyres-vapi` | `/brands/ceat-tyres-vapi` | `/brands/apollo-tyres-vapi` | `/brands/bridgestone-tyres-vapi` | `/brands/jk-tyres-vapi`
+8. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
+   - `/locations/tyre-shop-vapi-gidc` | `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
+9. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
+10. **[/blog](https://sahara-tyre.vercel.app/blog)** — Technical maintenance and buyer advisory articles.
+11. **[location.htm](https://sahara-tyre.vercel.app/location)** — Master navigation & landmark turn-by-turn directions.
+12. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
+13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
+14. **[terms.htm](https://sahara-tyre.vercel.app/terms)** — Terms & Conditions: Workshop service agreements & warranties.
 
 ---
 

@@ -16,7 +16,7 @@ Technical Email: shaikh.samir.dev@gmail.com
 Website: Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
 Established: 2005 (18+ Years Continuous Service)
 Languages: English, Hindi, Gujarati
-Architecture: 24 Semantic Static HTML Pages (11 Vehicle Hubs, 3 Condition Hubs, 3 Comparison Guides)
+Architecture: 82 Semantic Static HTML Pages (Services Hub, 11 Vehicle Hubs, 3 Condition Hubs, 3 Comparison Guides, 8 Brand Hubs, 10 Local Area Landing Pages, 2 Sizing Matrices, 37 Blog Technical Guides, and Core Pages)
 Standards: HTML5, CSS3, Schema.org JSON-LD (AutoPartsStore, FAQPage, ItemList, BreadcrumbList), RFC 9116, LLMs.txt
 Hosting: Vercel (Edge CDN Network)
 Components: Tailwind CSS (Utility classes), Material Symbols, Google Analytics 4

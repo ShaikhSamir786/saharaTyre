@@ -8,7 +8,7 @@
     <!-- Homepage: Master Hub -->
     <url>
         <loc>https://sahara-tyre.vercel.app/</loc>
-        <lastmod>2026-08-23</lastmod>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -18,23 +18,10 @@
         </image:image>
     </url>
 
-    <!-- Services Hub -->
-    <url>
-        <loc>https://sahara-tyre.vercel.app/services.htm</loc>
-        <lastmod>2026-08-23</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
-            <image:title>Tyre &amp; Auto Services at Sahara Tyre Vapi</image:title>
-            <image:caption>3D laser wheel alignment, dynamic wheel balancing, puncture repair and fleet maintenance in Vapi GIDC</image:caption>
-        </image:image>
-    </url>
-
     <!-- Products Catalog -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/products.htm</loc>
-        <lastmod>2026-08-23</lastmod>
+        <loc>https://sahara-tyre.vercel.app/products</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
@@ -46,8 +33,8 @@
 
     <!-- Location & Directions -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/location.htm</loc>
-        <lastmod>2026-08-23</lastmod>
+        <loc>https://sahara-tyre.vercel.app/location</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
@@ -59,8 +46,8 @@
 
     <!-- About & Trust -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/about.htm</loc>
-        <lastmod>2026-08-23</lastmod>
+        <loc>https://sahara-tyre.vercel.app/about</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
@@ -198,16 +185,16 @@
 
     <!-- Privacy Policy -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/privacy.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/privacy</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <!-- Terms and Conditions -->
     <url>
-        <loc>https://sahara-tyre.vercel.app/terms.htm</loc>
-        <lastmod>2026-08-30</lastmod>
+        <loc>https://sahara-tyre.vercel.app/terms</loc>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -217,7 +204,12 @@
         <loc>https://sahara-tyre.vercel.app/services</loc>
         <lastmod>2026-09-06</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.90</priority>
+        <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>Auto &amp; Tyre Services in Vapi GIDC | Sahara Tyre</image:title>
+            <image:caption>3D laser wheel alignment, dynamic wheel balancing, puncture repair and fleet maintenance in Vapi GIDC</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://sahara-tyre.vercel.app/services/wheel-alignment-vapi</loc>

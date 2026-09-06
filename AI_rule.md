@@ -35,33 +35,26 @@ All AI agents must preserve 100% exact consistency across all HTML pages, schema
 ## 3. Architecture & Code Modification Guidelines
 
 ### Page Structure
-The repository is structured as a multi-page static site with dedicated topical hubs:
+The repository is structured as a multi-page static site with dedicated topical hubs (82 pages total):
 - `index.htm` – Homepage, master local FAQs, trust signals & main CTA.
-- `services.htm` – Alignment, balancing, puncture repair, brakes, suspension & fleet maintenance.
-- `products.htm` – Radial tyre catalog (MRF, CEAT, Apollo, Bridgestone, Michelin), used tyres, retreads & category gateway.
-- `truck-tyres.htm` – Multi-axle truck, tipper and trailer tyres (10.00-20, 295/80 R22.5, 11.00 R20).
-- `bus-tyres.htm` – Intercity luxury coach & staff bus tyres (295/80 R22.5, 10.00 R20, 275/70 R22.5).
-- `car-tyres.htm` – Passenger car & SUV tyres (155/80 R13 to 265/65 R17) with 3D alignment.
-- `bike-tyres.htm` – Motorcycle tyres (2.75-18, 90/90-17, 120/80-18, 140/70-17) with 15-min fitting.
-- `scooter-tyres.htm` – Scooter & EV tyres (90/100-10, 90/90-12, 100/80-12) for Activa, Access & Ola.
-- `commercial-vehicle-tyres.htm` – Commercial LCV pickup tyres (145 R12 LT, 7.00-15, 7.50-16) for Tata Ace & Bolero.
-- `crane-tyres.htm` – Industrial Hydra crane tyres (11.00-20 Crane, 14.00-24 24PR) for ACE & Escorts.
-- `tractor-tyres.htm` – Farm tractor front & rear tyres (6.00-16, 12.4-28, 13.6-28, 14.9-28).
-- `agricultural-tyres.htm` – Farm trailer trolley (9.00-16 16PR) & combine harvester tyres (18.4-34).
-- `otr-earthmover-tyres.htm` – OTR wheel loader, grader & JCB 3DX tyres (17.5-25, 23.5-25, 14.00-24).
-- `industrial-tyres.htm` – Solid rubber resilient & cleanroom forklift tyres (6.00-9, 7.00-12, 8.25-15).
-- `condition/index.htm` – Master Tyre Condition Hub (New, 5-point tested used, commercial remould).
-- `condition/new-tyres.htm` – Brand new factory warranty tyres (MRF, CEAT, Apollo, Bridgestone, Michelin).
-- `condition/used-tyres.htm` – 5-point safety tested second-hand tyres (3mm+ usable tread).
-- `condition/remould-tyres.htm` – Certified cold precure & hot mould retread commercial tyres (50% cost savings).
-- `guides/index.htm` – Master Decision & Comparison Buying Guides Hub.
-- `guides/new-vs-used-tyres.htm` – In-depth buying guide comparing new vs used tyres.
-- `guides/new-vs-remould-tyres.htm` – Commercial fleet guide analyzing Cost-Per-Kilometer (CPK).
-- `guides/used-vs-remould-tyres.htm` – Budget comparison between used and retreaded tyres.
-- `location.htm` – Route directions, landmark navigation, parking & transit info.
-- `about.htm` – 18+ years heritage, technician expertise, guarantees.
-- `privacy.htm` – Privacy policy, analytics & AdSense compliance disclosures.
-- `terms.htm` – Terms and conditions, warranty policies & workshop agreements.
+- `/services` (`services/index.htm`) – Auto services directory hub & 10 dedicated service pages (`wheel-alignment-vapi`, `puncture-repair-vapi`, `wheel-balancing-vapi`, etc.).
+- `/products` (`products.htm`) – Radial tyre catalog (MRF, CEAT, Apollo, Bridgestone, Michelin), used tyres, retreads & category gateway.
+- `/vehicles` (`vehicles/index.htm`) – Master vehicle directory & 11 dedicated vehicle pages:
+  - `truck-tyres`, `bus-tyres`, `car-tyres`, `bike-tyres`, `scooter-tyres`, `commercial-vehicle-tyres`, `crane-tyres`, `tractor-tyres`, `agricultural-tyres`, `otr-earthmover-tyres`, `industrial-tyres`.
+- `/condition` (`condition/index.htm`) – Master Tyre Condition Hub:
+  - `new-tyres`, `used-tyres`, `remould-tyres`.
+- `/guides` (`guides/index.htm`) – Master Decision & Comparison Buying Guides Hub:
+  - `new-vs-used-tyres`, `new-vs-remould-tyres`, `used-vs-remould-tyres`.
+- `/brands` (`brands/index.htm`) – Authorized tyre brand hubs:
+  - `mrf-tyres-vapi`, `ceat-tyres-vapi`, `apollo-tyres-vapi`, `bridgestone-tyres-vapi`, `jk-tyres-vapi`.
+- `/locations` (`locations/index.htm`) – Local coverage hubs:
+  - `tyre-shop-vapi-gidc`, `tyre-shop-gunjan`, `tyre-shop-chala`, `tyre-shop-daman`.
+- `/tyres` (`tyres/car/index.htm`, `tyres/truck/index.htm`, `tyres/bike/index.htm`) – Specific tyre size matrices (10 car sizes, 6 truck sizes, 6 bike sizes).
+- `/blog` (`blog/index.htm`) – Automotive educational articles.
+- `/location` (`location.htm`) – Route directions, landmark navigation, parking & transit info.
+- `/about` (`about.htm`) – 18+ years heritage, technician expertise, guarantees.
+- `/privacy` (`privacy.htm`) – Privacy policy, analytics & AdSense compliance disclosures.
+- `/terms` (`terms.htm`) – Terms and conditions, warranty policies & workshop agreements.
 
 ### Frontend Principles
 1. **Semantic HTML5:** Maintain clean, accessible semantic elements (`<header>`, `<main>`, `<article>`, `<section>`, `<footer>`, `<nav>`).

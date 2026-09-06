@@ -70,40 +70,83 @@ The website is structured into modular semantic hubs and guides designed to sati
    - Broad local search entity matching for "tyre shop near me", "best tyre dealer in Vapi GIDC", and "auto service center".
    - Houses master FAQs, verified Google customer testimonials, brand partner badges, and instant call/WhatsApp CTAs.
 
-2. **Auto Services Hub (`https://sahara-tyre.vercel.app/services.htm`)**:
-   - Technical explanations of mechanical services: 3D laser alignment, computerized dynamic balancing, vulcanized puncture repair, brake checks, suspension diagnostics, and GIDC fleet maintenance contracts.
+2. **Auto Services Hub (`https://sahara-tyre.vercel.app/services`)**:
+   - Central directory for mechanical and workshop tyre services.
+   - Dedicated pages:
+     - `/services/wheel-alignment-vapi` (3D computerised laser alignment)
+     - `/services/wheel-balancing-vapi` (Dynamic sensor balancing)
+     - `/services/puncture-repair-vapi` (15-min tubeless vulcanized repair)
+     - `/services/new-tyres-vapi` (New tyre fitting & manufacturer warranty)
+     - `/services/used-tyres-vapi` (5-point safety tested pre-owned tyre fitting)
+     - `/services/remolded-tyres-vapi` (Cold precure commercial truck retreads)
+     - `/services/truck-tyres-vapi` (Heavy commercial tyre fitting & fleet care)
+     - `/services/car-tyres-vapi` (Passenger car & SUV wheel services)
+     - `/services/fleet-tyre-service-vapi` (GIDC corporate fleet maintenance)
+     - `/services/roadside-tyre-assistance-vapi` (Breakdown puncture assistance within 20km)
 
-3. **Tyre Products & Catalog (`https://sahara-tyre.vercel.app/products.htm`)**:
+3. **Tyre Products & Catalog (`https://sahara-tyre.vercel.app/products`)**:
    - Overview catalog connecting all new radial tyres, 5-point tested used tyres, certified remolded retreads, and accessories.
 
-4. **11 Dedicated Vehicle Category Hubs**:
-   - `truck-tyres.htm` (Multi-axle haulage & tipper trucks)
-   - `bus-tyres.htm` (Intercity luxury coaches & staff buses)
-   - `car-tyres.htm` (Passenger hatchbacks, sedans & SUVs)
-   - `bike-tyres.htm` (Commuter, cruiser & sports motorcycles)
-   - `scooter-tyres.htm` (Scooters & electric two-wheelers)
-   - `commercial-vehicle-tyres.htm` (Light commercial LCVs, Tata Ace, Bolero Pickup)
-   - `crane-tyres.htm` (Hydra pick-and-carry & mobile cranes)
-   - `tractor-tyres.htm` (Front steering & rear haulage farm tractors)
-   - `agricultural-tyres.htm` (Harvesters, trailers & farm implements)
-   - `otr-earthmover-tyres.htm` (JCB backhoe, wheel loaders & dumpers)
-   - `industrial-tyres.htm` (Solid resilient & pneumatic forklifts)
+4. **11 Dedicated Vehicle Category Hubs (`/vehicles/`)**:
+   - `/vehicles/truck-tyres` (Multi-axle haulage & tipper trucks)
+   - `/vehicles/bus-tyres` (Intercity luxury coaches & staff buses)
+   - `/vehicles/car-tyres` (Passenger hatchbacks, sedans & SUVs)
+   - `/vehicles/bike-tyres` (Commuter, cruiser & sports motorcycles)
+   - `/vehicles/scooter-tyres` (Scooters & electric two-wheelers)
+   - `/vehicles/commercial-vehicle-tyres` (Light commercial LCVs, Tata Ace, Bolero Pickup)
+   - `/vehicles/crane-tyres` (Hydra pick-and-carry & mobile cranes)
+   - `/vehicles/tractor-tyres` (Front steering & rear haulage farm tractors)
+   - `/vehicles/agricultural-tyres` (Harvesters, trailers & farm implements)
+   - `/vehicles/otr-earthmover-tyres` (JCB backhoe, wheel loaders & dumpers)
+   - `/vehicles/industrial-tyres` (Solid resilient & pneumatic forklifts)
 
 5. **Tyre Condition Hubs (`/condition/`) & Comparison Decision Guides (`/guides/`)**:
-   - `condition/index.htm` (Master Condition Hub: New, 5-point tested used & commercial remould)
-   - `condition/new-tyres.htm` (Brand-new OEM & aftermarket tyres with manufacturer warranty)
-   - `condition/used-tyres.htm` (5-point safety tested pre-owned tyres with 3mm+ tread depth)
-   - `condition/remould-tyres.htm` (Certified cold precure & hot mould retread commercial tyres)
-   - `guides/index.htm` (Master Decision & Comparison Buying Guides Hub)
-   - `guides/new-vs-used-tyres.htm` (Comprehensive buying guide: New vs Second-Hand tyres)
-   - `guides/new-vs-remould-tyres.htm` (Commercial fleet guide: New vs Retreaded tyres & CPKM analysis)
-   - `guides/used-vs-remould-tyres.htm` (Budget comparison guide: Used vs Remoulded tyres)
+   - `/condition` (Master Condition Hub: New, 5-point tested used & commercial remould)
+   - `/condition/new-tyres` (Brand-new OEM & aftermarket tyres with manufacturer warranty)
+   - `/condition/used-tyres` (5-point safety tested pre-owned tyres with 3mm+ tread depth)
+   - `/condition/remould-tyres` (Certified cold precure & hot mould retread commercial tyres)
+   - `/guides` (Master Decision & Comparison Buying Guides Hub)
+   - `/guides/new-vs-used-tyres` (Comprehensive buying guide: New vs Second-Hand tyres)
+   - `/guides/new-vs-remould-tyres` (Commercial fleet guide: New vs Retreaded tyres & CPKM analysis)
+   - `/guides/used-vs-remould-tyres` (Budget comparison guide: Used vs Remoulded tyres)
 
-6. **Contact & Location Navigation Guide (`https://sahara-tyre.vercel.app/location.htm`)**:
-   - Turn-by-turn driving directions from major transit nodes: Vapi Railway Station, Gunjan, Chala, Chanod Gate, Salvav, Daman, and Silvassa. Contains interactive Google Maps embed and commercial truck parking information.
+6. **Authorized Brands Hubs (`/brands/`)**:
+   - `/brands` (Authorized Brand Gateway)
+   - `/brands/mrf-tyres-vapi` (MRF ZLX, Wanderer, Steel Muscle)
+   - `/brands/ceat-tyres-vapi` (CEAT SecuraDrive, Milaze, Winload)
+   - `/brands/apollo-tyres-vapi` (Apollo Alnac 4G, Apterra, EnduRace)
+   - `/brands/bridgestone-tyres-vapi` (Bridgestone Turanza, Ecopia, Dueler)
+   - `/brands/jk-tyres-vapi` (JK UX Royale, Ranger, Jetsteel)
 
-7. **About & Heritage (`https://sahara-tyre.vercel.app/about.htm`)**:
-   - Historical background (established 2005), technician qualifications, warranty policies, quality testing standards, and corporate values.
+7. **Geographic Service Corridors (`/locations/`)**:
+   - `/locations` (Vapi & Regional Coverage Hub)
+   - `/locations/tyre-shop-vapi-gidc` (Phase 1, Phase 2, Phase 3 GIDC)
+   - `/locations/tyre-shop-gunjan` (Gunjan residential & commercial strip)
+   - `/locations/tyre-shop-chala` (Chala highway corridor)
+   - `/locations/tyre-shop-daman` (Daman coastal connection route)
+
+8. **Tyre Size Sizing Matrices (`/tyres/`)**:
+   - `/tyres/car` (Car Radials: 145/80 R12, 155/80 R13, 165/80 R14, 175/65 R14, 185/65 R15, 195/65 R15, 205/55 R16, 215/60 R16, 215/65 R16, 235/65 R17)
+   - `/tyres/truck` (Truck Radials: 1000-20, 1100-20, 1200-20, 295/80 R22.5, 295/90 R20, 8.25-16)
+   - `/tyres/bike` (Two-Wheeler: 2.75-17, 3.00-18, 80/100-18, 90/90-17, 100/90-17, 130/70-17)
+
+9. **Educational Blog Hub (`/blog/`)**:
+   - `/blog` (Automotive Care & Tyre Knowledge Hub)
+   - `/blog/best-tyres-for-indian-roads` (Top tyre recommendations for road conditions)
+   - `/blog/how-to-choose-tyre-size` (Deciphering tyre markings & sizing)
+   - `/blog/when-to-replace-car-tyres` (Tread wear, age limits & safety cues)
+   - `/blog/wheel-alignment-vs-balancing` (Symptom diagnosis & correction)
+   - `/blog/are-used-tyres-safe` (5-point safety inspection criteria)
+
+10. **Contact & Location Navigation Guide (`https://sahara-tyre.vercel.app/location`)**:
+    - Turn-by-turn driving directions from major transit nodes: Vapi Railway Station, Gunjan, Chala, Chanod Gate, Salvav, Daman, and Silvassa. Contains interactive Google Maps embed and commercial truck parking information.
+
+11. **About & Heritage (`https://sahara-tyre.vercel.app/about`)**:
+    - Historical background (established 2005), technician qualifications, warranty policies, quality testing standards, and corporate values.
+
+12. **Legal & Compliance Policies**:
+    - `/privacy` (Data protection, cookie disclosures)
+    - `/terms` (Workshop walk-in terms, warranty coverage)
 
 ---
 

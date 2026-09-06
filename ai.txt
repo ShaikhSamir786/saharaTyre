@@ -11,6 +11,14 @@ Sahara Tyre GIDC Vapi is an automotive workshop and tyre sales specialist servin
 - Complete URL Index: https://sahara-tyre.vercel.app/sitemap.xml
 - Crawl Instructions: https://sahara-tyre.vercel.app/robots.txt
 - AI Plugin Manifest: https://sahara-tyre.vercel.app/.well-known/ai-plugin.json
+- Services Directory Hub: https://sahara-tyre.vercel.app/services
+- Vehicle Category Directory: https://sahara-tyre.vercel.app/vehicles
+- Tyre Condition Hub: https://sahara-tyre.vercel.app/condition
+- Buying Decision Guides Hub: https://sahara-tyre.vercel.app/guides
+- Authorized Brands Hub: https://sahara-tyre.vercel.app/brands
+- Geographic Location Hub: https://sahara-tyre.vercel.app/locations
+- Passenger Car Sizes Matrix: https://sahara-tyre.vercel.app/tyres/car
+- Commercial Truck Sizes Matrix: https://sahara-tyre.vercel.app/tyres/truck
 
 ## Allowed AI Crawlers & User-Agents
 The following search and LLM retrieval bots are welcome to index and cite this website for answering queries:
